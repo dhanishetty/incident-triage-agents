@@ -106,7 +106,9 @@ Backend skeleton (done): `backend/` holds the real agent graph in LangGraph with
 
 The Overview page can follow a real run: its **Live backend** switch starts a run through the API, lights up the diagram from the server-sent events and sends Approve or Reject to the API.
 
-Next: Azure Monitor connectors (Logs, Metrics, Change), an Azure OpenAI reasoner, and the demo environment with a fault injector.
+Demo environment (done): `demo_env/shop/` is a small service that handles orders under steady load. A fault injector breaks it in three real ways (`bad-deploy`, `memory-leak`, `db-pool`), it keeps its own logs, one metrics sample per second and a deploy/config history, and its alert rule posts a webhook to the backend. `connectors/env.py` turns that telemetry into evidence, `llm/rules.py` is a rules-based reasoner that scores confidence from how many signals agree and asks for a deeper log pass when they do not, and the Action connector applies an approved fix to the shop and then checks that it recovered. Captured real telemetry (`backend/tests/fixtures`) backs the tests. The site's **Demo environment** mode has the Break buttons.
+
+Next: Azure Monitor connectors (Logs, Metrics, Change) behind the same interfaces, and an Azure OpenAI reasoner scored against the rules-based one on the same scenarios.
 
 Also done: the architecture page (`frontend/`, Docker Compose, port 8080), including a **Play a run** replay on the Overview. It plays a scripted incident (bad deploy, memory leak or database connections) through the diagram, pauses at the approval gate for Approve or Reject, and writes an event log. The steps live in `frontend/src/features/architecture/scenarios.ts` and have the shape of the events the real backend should stream, so real runs can replace the script later.
 

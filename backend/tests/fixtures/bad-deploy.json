@@ -1,0 +1,3459 @@
+{
+ "scenario": "bad-deploy",
+ "captured_at": 1792095070.9670928,
+ "logs": [
+  {
+   "ts": 1792095031.1662352,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.4499726,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.6139112,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.7708747,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.8489938,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.0932682,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.1376784,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.293674,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.3365183,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.5753326,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.655766,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.7046824,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.7843552,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.9833407,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.1063387,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.2297728,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.302467,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.430843,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.550371,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.6690185,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.8673584,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.0759256,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.111028,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.392871,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.5149968,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.5952203,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.1262877,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.6078725,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.6925147,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.7679713,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.8103929,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.9676046,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.0477266,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.1730905,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.4526346,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.6540694,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.7762551,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.8606212,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.1010566,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.2184277,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.6245222,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.785391,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.8708048,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.9472473,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.19223,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.3962471,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.4767263,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.5944443,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.7159061,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.799228,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.8401408,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.200863,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.3180764,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.4030285,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.5655394,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.807684,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.2121756,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.2447312,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.2852125,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.406728,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.6076689,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.7326815,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.8135102,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.9327068,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.9753304,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.0173826,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.1794627,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.220826,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.5767844,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.22684,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.3451917,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.42309,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.466408,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.6679938,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.8750036,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.9114993,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.990726,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.0710223,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.1116705,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.3190684,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.6799476,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.7575,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.8022172,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.8798177,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.9215784,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.080279,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.2408202,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.4032762,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.4456036,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.4819264,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.5685446,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.6494117,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.971671,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.1368208,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.4973874,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.9382432,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.0624921,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.100117,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.5495527,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.9124284,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.0323532,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.5147727,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.5502481,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.713631,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.202086,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.8885112,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.084301,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.2128344,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.244142,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.291045,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.6516163,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.6909664,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.7375019,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.7769635,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.9316788,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.978756,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.0914407,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.5436292,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.7855651,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.8223863,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.8587823,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.9039512,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.944033,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.0692415,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.100583,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.2683942,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.708392,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.7957904,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.9551795,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.114594,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.236663,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.2752032,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.3906703,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.475268,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.5576434,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.6736977,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.7565308,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.8752608,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.036387,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.0762641,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.2378445,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.4000263,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.6034973,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.964899,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.0054862,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.1273768,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.250533,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.293998,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.4117012,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.4905958,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.6515331,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.8953903,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.0152643,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.057062,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.096819,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.217099,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.2591171,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.6213894,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.7003508,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.7480617,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.865945,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.1439843,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.3061056,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.3539412,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.3855948,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.51025,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.587312,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.8382745,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.9159882,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.0795722,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.1115701,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.3162136,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.5159566,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.563449,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.7987766,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.9584029,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.0877912,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.2079818,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.4029388,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.564279,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.6075766,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.7269285,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.8542778,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.0932958,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.17353,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.2175179,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.252922,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.2947063,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.340078,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.3787858,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.418251,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.6988273,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.9052987,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.979915,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.3033128,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.3878245,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.4198856,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.4624298,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.663552,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.7129707,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.7436337,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.8248913,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.0741122,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.1560643,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.516406,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.637189,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.8834035,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.0849357,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.1180513,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.2446313,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.2869208,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.3265624,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.3609004,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.6443527,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.7686772,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.8523023,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.0101914,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.0476475,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.249366,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.3725069,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.4125664,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.4964783,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.5321379,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.7380872,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.780062,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.8144467,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.8574495,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.1832032,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.3805244,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.545842,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.703875,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.0701113,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.3081872,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.3506947,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.3951695,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.5111253,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.5546823,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.5990474,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.6320837,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.837676,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.963278,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.0377545,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.2410204,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.4435012,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.6024544,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.6845822,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.765323,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.088355,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.406126,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.4504712,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.531816,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.7370987,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.896089,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.9803772,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.2219799,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.2980852,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.342188,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.4593132,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.5842447,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.6648016,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.73791,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.8612492,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.0631135,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.186027,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.2228284,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.3882601,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.7124763,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.7460012,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.83554,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.9511797,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.9886992,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.0281715,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.0703866,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.319465,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.3944476,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.600731,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.7178133,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.7997634,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.84368,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.920602,
+   "level": "ERROR",
+   "msg": "AttributeError in PricingCalculator.apply_discount: 'NoneType' object has no attribute 'discount'",
+   "version": "v482",
+   "frames": [
+    "pricing.py:apply_discount",
+    "orders.py:create_order"
+   ]
+  }
+ ],
+ "metrics": [
+  {
+   "ts": 1792095006.9719176,
+   "rps": 23,
+   "error_rate": 0.0,
+   "p95_ms": 109.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095007.972345,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 103.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095008.972794,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095009.9731212,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 107.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095010.9735503,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 106.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095011.9739325,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095012.9745324,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095013.974966,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 106.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095014.9752526,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 110.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095015.9756963,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 102.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095016.9760292,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095017.9763248,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 111.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095018.9767528,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 103.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095019.9770143,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 105.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095020.9772654,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 110.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095021.9753358,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095022.9757326,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 113.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095023.9760897,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 105.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095024.976335,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 110.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095025.976668,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095026.977039,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095027.977505,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 112.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095028.9777462,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 111.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095029.97817,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095030.9786541,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 105.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095031.9790688,
+   "rps": 25,
+   "error_rate": 0.2,
+   "p95_ms": 107.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095032.9795382,
+   "rps": 26,
+   "error_rate": 0.3077,
+   "p95_ms": 107.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095033.9798615,
+   "rps": 24,
+   "error_rate": 0.3333,
+   "p95_ms": 106.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095034.980177,
+   "rps": 25,
+   "error_rate": 0.2,
+   "p95_ms": 103.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095035.9805171,
+   "rps": 25,
+   "error_rate": 0.24,
+   "p95_ms": 104.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095036.9809139,
+   "rps": 24,
+   "error_rate": 0.25,
+   "p95_ms": 105.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095037.9811976,
+   "rps": 27,
+   "error_rate": 0.2222,
+   "p95_ms": 113.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 0,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095038.9815638,
+   "rps": 24,
+   "error_rate": 0.2917,
+   "p95_ms": 111.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095039.9821424,
+   "rps": 23,
+   "error_rate": 0.2174,
+   "p95_ms": 107.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095040.9823768,
+   "rps": 27,
+   "error_rate": 0.3333,
+   "p95_ms": 107.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095041.982554,
+   "rps": 23,
+   "error_rate": 0.1739,
+   "p95_ms": 112.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095042.982908,
+   "rps": 26,
+   "error_rate": 0.2692,
+   "p95_ms": 105.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095043.9831343,
+   "rps": 25,
+   "error_rate": 0.36,
+   "p95_ms": 105.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095044.9836433,
+   "rps": 25,
+   "error_rate": 0.32,
+   "p95_ms": 105.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095045.984193,
+   "rps": 25,
+   "error_rate": 0.12,
+   "p95_ms": 104.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095046.984585,
+   "rps": 24,
+   "error_rate": 0.1667,
+   "p95_ms": 109.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095047.9849722,
+   "rps": 24,
+   "error_rate": 0.1667,
+   "p95_ms": 105.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095048.9852931,
+   "rps": 25,
+   "error_rate": 0.08,
+   "p95_ms": 107.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095049.9855714,
+   "rps": 26,
+   "error_rate": 0.3846,
+   "p95_ms": 107.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095050.9857867,
+   "rps": 25,
+   "error_rate": 0.28,
+   "p95_ms": 108.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095051.9832673,
+   "rps": 24,
+   "error_rate": 0.25,
+   "p95_ms": 105.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095052.9836166,
+   "rps": 25,
+   "error_rate": 0.36,
+   "p95_ms": 107.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095053.9839547,
+   "rps": 25,
+   "error_rate": 0.24,
+   "p95_ms": 108.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095054.984269,
+   "rps": 24,
+   "error_rate": 0.3333,
+   "p95_ms": 106.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095055.9847567,
+   "rps": 25,
+   "error_rate": 0.36,
+   "p95_ms": 105.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095056.985072,
+   "rps": 25,
+   "error_rate": 0.32,
+   "p95_ms": 104.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095057.9855785,
+   "rps": 25,
+   "error_rate": 0.28,
+   "p95_ms": 106.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095058.986147,
+   "rps": 24,
+   "error_rate": 0.2917,
+   "p95_ms": 106.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095059.9863997,
+   "rps": 26,
+   "error_rate": 0.4231,
+   "p95_ms": 108.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095060.9872782,
+   "rps": 24,
+   "error_rate": 0.3333,
+   "p95_ms": 110.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095061.987707,
+   "rps": 24,
+   "error_rate": 0.2083,
+   "p95_ms": 94.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095062.9881942,
+   "rps": 25,
+   "error_rate": 0.36,
+   "p95_ms": 110.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095063.988601,
+   "rps": 25,
+   "error_rate": 0.44,
+   "p95_ms": 96.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095064.9889822,
+   "rps": 25,
+   "error_rate": 0.16,
+   "p95_ms": 103.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095065.9892313,
+   "rps": 26,
+   "error_rate": 0.3846,
+   "p95_ms": 107.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 0,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095066.9895554,
+   "rps": 23,
+   "error_rate": 0.2609,
+   "p95_ms": 103.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095067.9898217,
+   "rps": 26,
+   "error_rate": 0.2692,
+   "p95_ms": 107.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095068.9901516,
+   "rps": 23,
+   "error_rate": 0.3478,
+   "p95_ms": 108.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095069.9905014,
+   "rps": 27,
+   "error_rate": 0.3333,
+   "p95_ms": 107.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  }
+ ],
+ "changes": [
+  {
+   "ts": 1792095030.9697511,
+   "kind": "deploy",
+   "detail": "Deploy v482: new coupon discount rules in the pricing module",
+   "meta": {
+    "version": "v482",
+    "from_version": "v481"
+   }
+  }
+ ]
+}

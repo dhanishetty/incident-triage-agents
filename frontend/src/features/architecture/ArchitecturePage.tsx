@@ -3,6 +3,8 @@ import clsx from "clsx";
 import FlowDiagram from "./FlowDiagram";
 import { overview } from "./diagrams";
 import { EventLog, RunBar, type Mode } from "./RunControls";
+import { EnvironmentPanel } from "./EnvironmentPanel";
+import { useEnvironmentRun } from "./useEnvironmentRun";
 import { useLiveRun } from "./useLiveRun";
 import { useRun } from "./useRun";
 
@@ -108,11 +110,13 @@ function Overview() {
   const [mode, setMode] = useState<Mode>("simulated");
   const simulated = useRun(FOCUS_IDS);
   const live = useLiveRun(FOCUS_IDS);
-  const run = mode === "live" ? live : simulated;
+  const environment = useEnvironmentRun(FOCUS_IDS, mode === "environment");
+  const run = mode === "environment" ? environment : mode === "live" ? live : simulated;
 
   const switchTo = (m: Mode) => {
     simulated.reset(); // start the other source from a clean diagram
     live.reset();
+    environment.reset();
     setMode(m);
   };
 
@@ -121,12 +125,15 @@ function Overview() {
       <div className="glass space-y-3 p-6">
         <h2 className="text-lg font-semibold">The whole picture</h2>
         <p className="text-sm text-muted">
-          {mode === "live"
-            ? "Live backend: the real agent graph runs on the server with demo data and a scripted reasoner, and this diagram follows its event stream."
-            : run.view
+          {mode === "environment"
+            ? "Demo environment: a real service you can break. The agents read its actual logs, metrics and change history, and a fix they apply really heals it."
+            : mode === "live"
+              ? "Live backend: the real agent graph runs on the server with demo data and a scripted reasoner, and this diagram follows its event stream."
+              : run.view
               ? run.scenario.blurb
               : "Arrows show who calls whom. Press Play a run to watch the agents handle a simulated incident."}
         </p>
+        {run.environment && <EnvironmentPanel env={run.environment} error={run.statusText} />}
         <RunBar run={run} mode={mode} onMode={switchTo} />
         <FlowDiagram diagram={overview} run={run.view} />
       </div>

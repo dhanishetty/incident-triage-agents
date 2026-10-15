@@ -1,0 +1,694 @@
+{
+ "scenario": "memory-leak",
+ "captured_at": 1792095071.0509543,
+ "logs": [
+  {
+   "ts": 1792095038.3988543,
+   "level": "ERROR",
+   "msg": "Container shop-api OOMKilled (memory limit 1024 MB)",
+   "version": "v481",
+   "frames": [
+    "kernel:oom_kill"
+   ]
+  },
+  {
+   "ts": 1792095045.726101,
+   "level": "ERROR",
+   "msg": "Container shop-api OOMKilled (memory limit 1024 MB)",
+   "version": "v481",
+   "frames": [
+    "kernel:oom_kill"
+   ]
+  },
+  {
+   "ts": 1792095053.0744302,
+   "level": "ERROR",
+   "msg": "Container shop-api OOMKilled (memory limit 1024 MB)",
+   "version": "v481",
+   "frames": [
+    "kernel:oom_kill"
+   ]
+  },
+  {
+   "ts": 1792095060.4229922,
+   "level": "ERROR",
+   "msg": "Container shop-api OOMKilled (memory limit 1024 MB)",
+   "version": "v481",
+   "frames": [
+    "kernel:oom_kill"
+   ]
+  },
+  {
+   "ts": 1792095067.7726328,
+   "level": "ERROR",
+   "msg": "Container shop-api OOMKilled (memory limit 1024 MB)",
+   "version": "v481",
+   "frames": [
+    "kernel:oom_kill"
+   ]
+  }
+ ],
+ "metrics": [
+  {
+   "ts": 1792095007.055746,
+   "rps": 23,
+   "error_rate": 0.0,
+   "p95_ms": 106.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095008.0562494,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095009.056615,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 105.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095010.0569496,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 109.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095011.057325,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095012.0577233,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 105.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095013.057968,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 111.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095014.0584238,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 106.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095015.05878,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 109.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095016.0590239,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 105.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095017.0592098,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095018.0595095,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 112.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095019.0597978,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 105.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095020.0602732,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 106.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095021.0606074,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095022.0584707,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095023.0590708,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095024.059634,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 109.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095025.0598497,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 104.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095026.0600712,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095027.0605414,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095028.0609064,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 112.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095029.061351,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 111.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095030.0617201,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 104.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095031.0619087,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 107.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095032.0621836,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 110.2,
+   "mem_mb": 396.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095033.0624783,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 104.4,
+   "mem_mb": 496.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095034.0627344,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.7,
+   "mem_mb": 596.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095035.0632591,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 110.9,
+   "mem_mb": 696.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095036.0635746,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 106.8,
+   "mem_mb": 792.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095037.0637524,
+   "rps": 26,
+   "error_rate": 0.0,
+   "p95_ms": 107.1,
+   "mem_mb": 896.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095038.0640852,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 109.8,
+   "mem_mb": 992.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095039.0643904,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 113.0,
+   "mem_mb": 364.0,
+   "restarts": 1,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095040.0647001,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 111.1,
+   "mem_mb": 464.0,
+   "restarts": 1,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095041.0649776,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 106.9,
+   "mem_mb": 564.0,
+   "restarts": 1,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095042.0651462,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 103.2,
+   "mem_mb": 664.0,
+   "restarts": 1,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095043.065555,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.5,
+   "mem_mb": 764.0,
+   "restarts": 1,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095044.065926,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 110.2,
+   "mem_mb": 860.0,
+   "restarts": 1,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095045.0661678,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 106.5,
+   "mem_mb": 960.0,
+   "restarts": 1,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095046.0664499,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.9,
+   "mem_mb": 332.0,
+   "restarts": 2,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095047.0665846,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.6,
+   "mem_mb": 432.0,
+   "restarts": 2,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095048.0667987,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 106.5,
+   "mem_mb": 532.0,
+   "restarts": 2,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095049.0673,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 112.8,
+   "mem_mb": 628.0,
+   "restarts": 2,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095050.067735,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 104.9,
+   "mem_mb": 728.0,
+   "restarts": 2,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095051.068223,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 106.4,
+   "mem_mb": 824.0,
+   "restarts": 2,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095052.065382,
+   "rps": 26,
+   "error_rate": 0.0,
+   "p95_ms": 107.8,
+   "mem_mb": 928.0,
+   "restarts": 2,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095053.0656056,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 105.0,
+   "mem_mb": 1024.0,
+   "restarts": 2,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095054.0659716,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 113.4,
+   "mem_mb": 396.0,
+   "restarts": 3,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095055.0663464,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.4,
+   "mem_mb": 496.0,
+   "restarts": 3,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095056.0666647,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.3,
+   "mem_mb": 596.0,
+   "restarts": 3,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095057.066936,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 108.8,
+   "mem_mb": 692.0,
+   "restarts": 3,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095058.0672896,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 105.0,
+   "mem_mb": 792.0,
+   "restarts": 3,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095059.0675888,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 111.0,
+   "mem_mb": 892.0,
+   "restarts": 3,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095060.0679758,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 106.7,
+   "mem_mb": 988.0,
+   "restarts": 3,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095061.0681968,
+   "rps": 26,
+   "error_rate": 0.0,
+   "p95_ms": 109.3,
+   "mem_mb": 364.0,
+   "restarts": 4,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095062.068343,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 108.1,
+   "mem_mb": 460.0,
+   "restarts": 4,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095063.0687046,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 111.3,
+   "mem_mb": 560.0,
+   "restarts": 4,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095064.069108,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.7,
+   "mem_mb": 660.0,
+   "restarts": 4,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095065.0694802,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 108.9,
+   "mem_mb": 756.0,
+   "restarts": 4,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095066.0698292,
+   "rps": 26,
+   "error_rate": 0.0,
+   "p95_ms": 109.5,
+   "mem_mb": 860.0,
+   "restarts": 4,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095067.0700192,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 110.7,
+   "mem_mb": 956.0,
+   "restarts": 4,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095068.070316,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 104.0,
+   "mem_mb": 328.0,
+   "restarts": 5,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095069.0707214,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 109.8,
+   "mem_mb": 424.0,
+   "restarts": 5,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095070.0710585,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 110.4,
+   "mem_mb": 524.0,
+   "restarts": 5,
+   "db_in_use": 2,
+   "db_pool": 8
+  }
+ ],
+ "changes": []
+}

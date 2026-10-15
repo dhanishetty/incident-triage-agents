@@ -14,6 +14,7 @@ const btn =
 export function RunBar({ run, mode, onMode }: { run: RunApi; mode: Mode; onMode: (m: Mode) => void }) {
   const { scenario, scenarios, idx, playing, waiting, finished, speed } = run;
   const live = run.mode === "live";
+  const env = run.mode === "environment";
   const idle = idx < 0;
   const last = run.log[run.log.length - 1];
 
@@ -21,18 +22,19 @@ export function RunBar({ run, mode, onMode }: { run: RunApi; mode: Mode; onMode:
     <div className="sticky top-2 z-30 space-y-2 rounded-xl border border-border bg-[#0b1120]/95 p-3 shadow-lg backdrop-blur">
       <div className="flex flex-wrap items-center gap-2">
         <div className="flex rounded-lg border border-border p-0.5 text-xs" role="group" aria-label="Where the run comes from">
-          {(["simulated", "live"] as const).map((m) => (
+          {(["simulated", "live", "environment"] as const).map((m) => (
             <button
               key={m}
               onClick={() => onMode(m)}
               aria-pressed={mode === m}
               className={clsx("rounded-md px-2.5 py-1 transition", mode === m ? "bg-azure/20 text-white" : "text-muted hover:text-white")}
             >
-              {m === "simulated" ? "Simulated" : "Live backend"}
+              {m === "simulated" ? "Simulated" : m === "live" ? "Live backend" : "Demo environment"}
             </button>
           ))}
         </div>
 
+        {!env && (
         <label className="flex items-center gap-2 text-xs text-muted">
           Incident
           <select
@@ -47,8 +49,9 @@ export function RunBar({ run, mode, onMode }: { run: RunApi; mode: Mode; onMode:
             ))}
           </select>
         </label>
+        )}
 
-        {!live && playing && !waiting ? (
+        {env ? null : !live && playing && !waiting ? (
           <button onClick={run.pause} className={btn}>
             <Pause size={14} /> Pause
           </button>
@@ -57,16 +60,16 @@ export function RunBar({ run, mode, onMode }: { run: RunApi; mode: Mode; onMode:
             <Play size={14} /> {finished ? "Replay" : live ? (playing ? "Running…" : "Start live run") : idle ? "Play a run" : "Resume"}
           </button>
         )}
-        {!live && (
+        {!live && !env && (
           <button onClick={run.next} disabled={waiting || finished} className={btn} aria-label="Next step">
             <SkipForward size={14} /> Step
           </button>
         )}
         <button onClick={run.reset} disabled={idle && !run.statusText} className={btn} aria-label="Restart">
-          <RotateCcw size={14} /> {live ? "Reset" : "Restart"}
+          <RotateCcw size={14} /> {live ? "Reset" : env ? "Clear" : "Restart"}
         </button>
 
-        {!live && (
+        {!live && !env && (
           <div className="ml-auto flex items-center gap-1 text-xs text-muted" role="group" aria-label="Speed">
             Speed
             {[0.5, 1, 2].map((s) => (
@@ -100,12 +103,14 @@ export function RunBar({ run, mode, onMode }: { run: RunApi; mode: Mode; onMode:
           <div className={run.statusText?.startsWith("Could not") || run.statusText?.startsWith("Lost") ? "text-bad" : "text-white"}>
             {run.statusText ??
               (idle
-                ? live
+                ? env
+                  ? "Break something in the shop above. Its own alert rule starts a run, and this diagram follows it."
+                  : live
                   ? "Press Start live run. The real agent graph runs on the backend with demo data."
                   : "Press Play to replay a simulated incident through the agents."
                 : finished
                   ? "Run complete. Press Replay to watch it again."
-                  : live
+                  : live || env
                     ? `Live: ${run.stepTitle ?? "working"}`
                     : `Step ${idx + 1}: ${run.stepTitle ?? ""}`)}
           </div>

@@ -57,7 +57,7 @@ def make_nodes(deps: Deps) -> dict[str, Callable]:
         em.node(agent, "done", done)
         for n in busy:
             em.node(n, "done")
-        return {"findings": {agent: Finding(agent=agent, summary=evidence.summary, round=round).model_dump()}}
+        return {"findings": {agent: Finding(agent=agent, summary=evidence.summary, round=round, detail=evidence.detail).model_dump()}}
 
     def logs(state: dict, config: RunnableConfig) -> dict:
         return gather(state, config, agent="logs", who="Logs agent", start="Running templated KQL on Log Analytics for the last 30 minutes.",
@@ -68,7 +68,7 @@ def make_nodes(deps: Deps) -> dict[str, Callable]:
                       edges=["triage-metrics", "metrics-cm", "cm-azmet"], busy=["cm", "azmet"], fetch=lambda a: deps.metrics.query(a))
 
     def change(state: dict, config: RunnableConfig) -> dict:
-        return gather(state, config, agent="change", who="Change agent", start="Listing deploys and config changes since 12:00.",
+        return gather(state, config, agent="change", who="Change agent", start="Listing deploys and config changes from the last 3 days.",
                       edges=["triage-change", "change-cc", "cc-azact", "cc-azpipe"], busy=["cc", "azact", "azpipe"], fetch=lambda a: deps.changes.recent(a))
 
     def logs_deeper(state: dict, config: RunnableConfig) -> dict:
@@ -137,11 +137,13 @@ def make_nodes(deps: Deps) -> dict[str, Callable]:
     def postmortem(state: dict, config: RunnableConfig) -> dict:
         em, alert = _em(config), Alert(**state["alert"])
         d, p = Diagnosis(**state["diagnosis"]), FixProposal(**state["proposal"])
-        fixed = state.get("approval") == "approve" and state.get("action", {}).get("ok", False)
+        applied = state.get("approval") == "approve"
+        fixed = applied and state.get("action", {}).get("ok", False)
+        outcome = "fixed" if fixed else "unhealthy" if applied else "rejected"
         em.node("postmortem", "working", "writing…")
         em.edges("executor-postmortem", "gate-postmortem") if state.get("approval") == "approve" else em.edges("gate-postmortem")
         em.say("Postmortem agent", "Drafting timeline, cause and follow-ups." if fixed else "Drafting a report that records the diagnosis and the proposed fix.")
-        pm = deps.reasoner.postmortem(alert, d, p, "fixed" if fixed else "not fixed")
+        pm = deps.reasoner.postmortem(alert, d, p, outcome)
         item = deps.work_items.create(alert, pm)
         em.node("cdo", "working")
         em.node("azbrd", "working")
@@ -150,7 +152,11 @@ def make_nodes(deps: Deps) -> dict[str, Callable]:
         em.node("postmortem", "done", "filed")
         em.node("cdo", "done")
         em.node("azbrd", "done")
-        em.say("Triage API", "Run closed: resolved with an approved fix." if fixed else "Run closed: fix not applied, handed to the on-call engineer.")
+        em.say("Triage API", {
+            "fixed": "Run closed: resolved with an approved fix.",
+            "unhealthy": "Run closed: the fix was applied but the system is still unhealthy, handed to the on-call engineer.",
+            "rejected": "Run closed: fix not applied, handed to the on-call engineer.",
+        }[outcome])
         em.run("completed")
         return {"postmortem": pm.model_dump(), "work_item": item.model_dump()}
 

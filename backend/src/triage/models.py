@@ -37,6 +37,7 @@ class Finding(BaseModel):
     agent: Literal["logs", "metrics", "change"]
     summary: str
     round: int = 1
+    detail: dict = Field(default_factory=dict)  # structured signals behind the summary, for agents that reason over them
 
 
 class Diagnosis(BaseModel):
@@ -44,11 +45,15 @@ class Diagnosis(BaseModel):
     confidence: float = Field(ge=0, le=1)
     needs_more: bool = False
     reason: str = ""  # why Diagnosis is unsure, when it asks for more evidence
+    kind: str = "unknown"  # bad-deploy, memory-leak, pool-size or unknown: lets Remediation pick a fix without parsing prose
+    params: dict = Field(default_factory=dict)
 
 
 class FixProposal(BaseModel):
     action: str
     risk: str
+    kind: str = "none"  # rollback, restart, set_pool or none: what an Action connector should do
+    params: dict = Field(default_factory=dict)
 
 
 class ActionResult(BaseModel):

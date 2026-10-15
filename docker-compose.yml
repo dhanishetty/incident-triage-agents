@@ -2,13 +2,33 @@ services:
   backend:
     build: ./backend
     environment:
-      TRIAGE_MODE: demo # demo data and a scripted reasoner; no Azure or API keys needed
+      TRIAGE_MODE: env # alerts from the demo environment are investigated for real; demo_scenario runs stay scripted
+      SHOP_URL: http://shop:8100
       TRIAGE_STEP_DELAY: "0.6" # seconds between steps, so a run is watchable
+      TRIAGE_VERIFY_WAIT: "6" # seconds the Action executor waits before checking that a fix worked
     ports:
       - "8010:8000" # host port 8010: 8000 is often taken by other local projects
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz')"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+
+  # The demo environment: a small shop service under constant load, with a fault injector and its own alert rule.
+  shop:
+    build: ./demo_env/shop
+    environment:
+      BACKEND_URL: http://backend:8000 # where the shop's alert webhook goes
+      SHOP_RPS: "25"
+    ports:
+      - "8100:8100"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8100/healthz')"]
       interval: 15s
       timeout: 3s
       retries: 3

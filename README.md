@@ -6,14 +6,16 @@ A team of eight AI agents that triages an Azure incident. An Azure Monitor alert
 
 ## Status
 
-Early. The agent graph runs end to end in demo mode, against built-in incident data and a scripted stand-in for the LLM. Azure connectors and a real LLM are next. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
+Early. The agent graph runs end to end. In **demo environment** mode the agents investigate a real service that you break on demand, reading its actual logs, metrics and change history, and a fix they apply really heals it. The reasoning there is rules-based, not an LLM yet. Azure connectors and an Azure OpenAI reasoner are next. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
 
 | Part | State |
 |---|---|
 | Architecture page with **Play a run**: a simulated replay, or a live run on the backend (`frontend/`) | Running in Docker |
-| LangGraph agent graph, approval pause, event stream, API (`backend/`) | Running in Docker, demo mode, 25 tests |
-| Connector interfaces | Defined, demo implementations only |
-| Azure connectors, Azure OpenAI reasoner, demo environment with a fault injector | Planned |
+| LangGraph agent graph, approval pause, event stream, API (`backend/`) | Running in Docker, 49 tests |
+| Demo environment (`demo_env/shop/`): a sample service, fault injector, alert rule and telemetry API | Running in Docker, 13 tests |
+| Environment connectors and a rules-based reasoner that diagnoses from real telemetry | Running in Docker |
+| Connector interfaces | Defined; demo and environment implementations |
+| Azure connectors and an Azure OpenAI reasoner | Planned |
 
 ## Run it
 
@@ -23,7 +25,7 @@ Needs Docker.
 docker compose up -d --build
 ```
 
-- http://localhost:8080 is the site. Press **Play a run** for a simulated replay, or switch to **Live backend** and press **Start live run** to watch the real agent graph run on the server. Approve or reject at the gate in either mode.
+- http://localhost:8080 is the site. Press **Play a run** for a simulated replay, or switch to **Live backend** and press **Start live run** to watch the real agent graph run on the server. Switch to **Demo environment**, press a **Break** button, and watch the shop's own alert start a run. Approve or reject at the gate in any mode.
 - http://localhost:8010/docs is the API. Start a real run (demo data) and watch it:
 
 ```bash
@@ -33,15 +35,24 @@ curl -N localhost:8010/runs/<id>/events                 # server-sent events
 curl -X POST localhost:8010/runs/<id>/approval -H 'content-type: application/json' -d '{"decision":"approve"}'
 ```
 
-Demo scenarios: `bad-deploy`, `memory-leak`, `db-connections`. The run pauses at the approval gate until you approve or reject.
+- http://localhost:8100/docs is the demo environment (the shop). Break it, and its alert rule starts a run on the backend by itself:
+
+```bash
+curl -X POST localhost:8100/faults/bad-deploy      # or memory-leak, db-pool
+curl localhost:8010/runs                           # a run appears within ~10-30 s
+curl -X POST localhost:8100/reset                  # back to healthy
+```
+
+Runs that name a `demo_scenario` label (`bad-deploy`, `memory-leak`, `db-connections`) replay a scripted scenario. Any other alert is investigated from the shop's real telemetry. Either way the run pauses at the approval gate until you approve or reject.
 
 Stop it with `docker compose down`.
 
-## Test the backend
+## Test
 
 ```bash
 docker run --rm -v "$PWD":/repo -w /repo/backend python:3.12-slim \
   sh -c "pip install -q -e '.[dev]' && python -m pytest -q"
+# the demo environment (about 15 s): same command with -w /repo/demo_env/shop
 ```
 
 The tests check each scenario and the loop back for more evidence, that the three evidence agents truly run in parallel, that a reject changes nothing, and that every node and link the backend emits exists in the frontend diagram.

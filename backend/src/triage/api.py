@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from triage.deps import Deps, build_deps
+from triage.deps import Deps, configured_env_deps, demo_deps
 from triage.events import RunEvent
 from triage.graph import build_graph
 from triage.models import Alert
@@ -35,11 +35,12 @@ def _summary(run: Run) -> RunSummary:
     return RunSummary(id=run.id, status=run.status, alert=run.alert, error=run.error)
 
 
-def create_app(deps: Deps | None = None, step_delay: float | None = None) -> FastAPI:
-    deps = deps or build_deps()
+def create_app(deps: Deps | None = None, step_delay: float | None = None, env: Deps | None = None) -> FastAPI:
+    deps = deps or demo_deps()
+    env = env or configured_env_deps()
     if step_delay is None:
         step_delay = float(os.getenv("TRIAGE_STEP_DELAY", "0.6"))
-    runs = RunManager(build_graph(deps), step_delay)
+    runs = RunManager(build_graph(deps), step_delay, build_graph(env) if env else None)
     app = FastAPI(title="Incident Triage Agents", version="0.1.0")
     app.state.runs = runs
 

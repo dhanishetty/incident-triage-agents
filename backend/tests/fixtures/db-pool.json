@@ -1,0 +1,5540 @@
+{
+ "scenario": "db-pool",
+ "captured_at": 1792095070.862725,
+ "logs": [
+  {
+   "ts": 1792095031.345336,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.4348927,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.5110629,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.5539172,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.63743,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.7158306,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.793531,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.8341186,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.914051,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095031.992558,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.0743978,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.1615996,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.1950614,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.2808185,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.355659,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.436075,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.5606291,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.642056,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.7231998,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.8078542,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.8851354,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095032.9667804,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.04569,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.1238627,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.2053752,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.2857268,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.3659892,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.4517696,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.5319262,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.5669057,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.6570568,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.7372944,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.8157141,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095033.8947198,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.011316,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.0983672,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.1769056,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.255409,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.3409228,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.417384,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.5023494,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.5808043,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.6176739,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.6978683,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.8283367,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.867214,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095034.9840927,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.0699446,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.1094687,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.1843016,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.2671888,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.3450556,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.4305398,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.5073185,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.5527544,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.6739635,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.7503424,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.7927358,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.8712347,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095035.9990463,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.0339608,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.1564584,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.1952364,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.2387352,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.3130612,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.3990047,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.518652,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.5945435,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.721087,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.7961638,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.8799284,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095036.9673629,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.0792491,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.1209667,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.201935,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.2882993,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.36832,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.4441466,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.5656369,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.6450524,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.7238262,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.7669637,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.8455925,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095037.9702327,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.0554557,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.131181,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.217546,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.2935328,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.3748174,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.4532685,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.4994454,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.5768733,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.6527286,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.7404559,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.8205407,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.9009452,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095038.983599,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.0619395,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.143164,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.2261703,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.3476598,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.4245827,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.5068405,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.5402167,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.6253765,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.7476528,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.8317294,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.9099152,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095039.988524,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.0659227,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.144862,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.2259605,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.3550227,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.4709985,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.5572343,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.6315646,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.6762826,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.7514951,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.837041,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.9122043,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095040.992228,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.0755887,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.16248,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.2373087,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.317983,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.3974228,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.516987,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.605706,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.7266412,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.804997,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095041.9273126,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.0087998,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.086544,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.1695156,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.2443058,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.3248725,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.4050894,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.4847076,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.572253,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.6563697,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.6895697,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.8150933,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.8941267,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095042.973039,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.0522964,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.0927615,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.1714885,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.2992046,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.379631,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.463285,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.540781,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.624002,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.6981287,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.7878792,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.8629513,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095043.9814117,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.0253985,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.1043956,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.1832745,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.2707856,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.3487842,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.3865106,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.4710948,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.5452793,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.6286454,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.7144608,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.7957544,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.8766518,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095044.9958458,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.0359623,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.154399,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.2811673,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.3129184,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.4366214,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.5219007,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.644428,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.680837,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.7572014,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.8438342,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095045.9222214,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.0084004,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.0868564,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.162893,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.205569,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.3242648,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.370532,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.4464626,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.534619,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.608759,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.7275348,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.7705207,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.8917735,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095046.9727802,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.0112915,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.0935504,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.1800733,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.2520568,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.340857,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.3805015,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.4605336,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.53745,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.6156871,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.698398,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.738547,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.8170254,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095047.9449413,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.0232046,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.099717,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.1826694,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.2649393,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.3434508,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.3878489,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.4674067,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.5479813,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.62294,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.7057707,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.7526734,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.8335567,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.91352,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095048.9907045,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.067551,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.19196,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.23728,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.308156,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.4378998,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.4696124,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.5958612,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.6717644,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.7132933,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.799071,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.8766813,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095049.9552584,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.036816,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.1247435,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.2017202,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.2841485,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.4002874,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.4838722,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.566112,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.6440687,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.6829984,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.8039153,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.8841326,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095050.925688,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.0097642,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.0866256,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.1743238,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.2562208,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.293778,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.3757966,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.4496965,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.5730422,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.6557214,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.7328637,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.8564162,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.9381995,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095051.9742522,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.0536506,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.1370482,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.2585428,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.3419962,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.4215298,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.5038638,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.5384083,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.6653435,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.7433825,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.8278332,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.898511,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095052.943267,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.019297,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.1066911,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.1849933,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.2611632,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.3424995,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.4239962,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.5046391,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.5866232,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.668429,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.751302,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.8345022,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.9151962,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095053.9958234,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.0711706,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.1567252,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.2323914,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.3203607,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.3948839,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.47285,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.557872,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.6399348,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.7164102,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.799317,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.8771083,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095054.9629712,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.0449705,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.1195476,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.207922,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.2446997,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.3285737,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.4444957,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.5297909,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.607078,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.6440668,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.767629,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.8495781,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095055.9286084,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.0113568,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.0916345,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.1266477,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.207782,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.2885015,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.37156,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.4979115,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.531411,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.6159952,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.734029,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.775447,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.8578002,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095056.979428,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.0623448,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.1007743,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.2207482,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.2644482,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.3444526,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.4181468,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.5038695,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.5811534,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.7021356,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.7438154,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.8276043,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.9428518,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095057.982875,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.1064289,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.1471066,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.2325988,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.3131006,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.3881705,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.4741337,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.5567741,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.6381536,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.672376,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.7517598,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.874178,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095058.9522858,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.037226,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.1174757,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.2004447,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.3244348,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.3627207,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.480553,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.5568247,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.6416802,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.7213778,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.801572,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095059.9202638,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.0051877,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.1264174,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.2029448,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.28645,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.3684072,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.453478,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.5253522,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.6153078,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.6903424,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.775958,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.8547862,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095060.8898544,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.0155492,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.0948515,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.1758945,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.261422,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.3329964,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.414393,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.5003765,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.5835097,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.6624095,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.7426665,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.861061,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095061.9425247,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.0248578,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.1088223,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.181216,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.2717314,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.3459024,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.427809,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.5514593,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.6257286,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.7140808,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.788565,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.8675067,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095062.9549832,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.0287266,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.1144798,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.1917276,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.274561,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.3181016,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.4345503,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.5194938,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.556692,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.6427433,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.7151525,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.8389537,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095063.8856337,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.0040445,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.0448413,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.1213903,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.204695,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.2855792,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.365515,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.4497895,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.5239177,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.6086638,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.6906893,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.7688131,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.8539593,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095064.9327466,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.011394,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.0930438,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.137602,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.2188118,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.3388655,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.4147258,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.4969566,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.6142466,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.6541498,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.7395654,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.8243198,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095065.8977416,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.0211432,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.103365,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.1403847,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.2630649,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.3073368,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.3827481,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.4686527,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.5500638,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.630968,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.713948,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.7852554,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.9083464,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095066.9903266,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.1111946,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.1912613,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.2767315,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.35871,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.4383774,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.5144994,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.5940092,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.67204,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.7555552,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.8805506,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095067.9613705,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.0446262,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.1211739,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.1981444,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.2802868,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.3183618,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.401324,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.5283167,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.6052382,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.6863055,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.768489,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.8484359,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095068.9270074,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.0052912,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.1296802,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.2125187,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.293562,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.3767939,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.450947,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.5284922,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.6131945,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.6953225,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.77272,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.8554075,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.9004,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095069.9733856,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.0541565,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.1351888,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.1786494,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.2591505,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.3355558,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.4248488,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.4986875,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.581971,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.6658971,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.7045755,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  },
+  {
+   "ts": 1792095070.821051,
+   "level": "ERROR",
+   "msg": "Timeout waiting for a database connection from the pool (size=1, in use=1)",
+   "version": "v481",
+   "frames": [
+    "db.py:acquire_connection",
+    "orders.py:create_order"
+   ]
+  }
+ ],
+ "metrics": [
+  {
+   "ts": 1792095006.8670852,
+   "rps": 23,
+   "error_rate": 0.0,
+   "p95_ms": 110.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095007.8674939,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 106.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095008.8678665,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 110.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095009.8682225,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 111.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095010.8685358,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 105.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095011.8688226,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095012.869122,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 104.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095013.8695152,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 112.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095014.8699377,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 112.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095015.8702743,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095016.8707688,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095017.871204,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 108.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095018.8715243,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095019.8718255,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 102.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095020.8719997,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095021.8723502,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 109.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095022.870308,
+   "rps": 26,
+   "error_rate": 0.0,
+   "p95_ms": 109.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095023.870586,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 107.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095024.8708827,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 109.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095025.8712127,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095026.8715644,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 113.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095027.8718643,
+   "rps": 24,
+   "error_rate": 0.0,
+   "p95_ms": 110.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 3,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095028.8721528,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 109.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095029.872476,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 101.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 8
+  },
+  {
+   "ts": 1792095030.8728633,
+   "rps": 25,
+   "error_rate": 0.0,
+   "p95_ms": 101.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 2,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095031.8730898,
+   "rps": 20,
+   "error_rate": 0.4,
+   "p95_ms": 346.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095032.8734024,
+   "rps": 24,
+   "error_rate": 0.5,
+   "p95_ms": 330.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095033.8737187,
+   "rps": 25,
+   "error_rate": 0.52,
+   "p95_ms": 338.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095034.874038,
+   "rps": 26,
+   "error_rate": 0.5,
+   "p95_ms": 338.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095035.8744228,
+   "rps": 24,
+   "error_rate": 0.5417,
+   "p95_ms": 345.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095036.8747294,
+   "rps": 24,
+   "error_rate": 0.4583,
+   "p95_ms": 333.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095037.8750212,
+   "rps": 26,
+   "error_rate": 0.5,
+   "p95_ms": 350.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095038.8753018,
+   "rps": 24,
+   "error_rate": 0.5,
+   "p95_ms": 334.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095039.8755958,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 342.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095040.8758662,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 338.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095041.8761826,
+   "rps": 24,
+   "error_rate": 0.4583,
+   "p95_ms": 329.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095042.876423,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 334.6,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095043.8766391,
+   "rps": 26,
+   "error_rate": 0.5,
+   "p95_ms": 340.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095044.876863,
+   "rps": 24,
+   "error_rate": 0.5417,
+   "p95_ms": 348.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095045.877355,
+   "rps": 25,
+   "error_rate": 0.44,
+   "p95_ms": 348.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095046.8776634,
+   "rps": 24,
+   "error_rate": 0.5,
+   "p95_ms": 355.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095047.8779383,
+   "rps": 25,
+   "error_rate": 0.56,
+   "p95_ms": 349.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095048.8781872,
+   "rps": 25,
+   "error_rate": 0.52,
+   "p95_ms": 344.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095049.8784404,
+   "rps": 25,
+   "error_rate": 0.52,
+   "p95_ms": 347.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095050.879005,
+   "rps": 24,
+   "error_rate": 0.4583,
+   "p95_ms": 341.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095051.8794122,
+   "rps": 25,
+   "error_rate": 0.52,
+   "p95_ms": 344.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095052.8768077,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 345.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095053.8770316,
+   "rps": 25,
+   "error_rate": 0.52,
+   "p95_ms": 331.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095054.8772178,
+   "rps": 25,
+   "error_rate": 0.52,
+   "p95_ms": 326.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095055.877506,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 340.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095056.8779883,
+   "rps": 25,
+   "error_rate": 0.52,
+   "p95_ms": 346.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095057.8783414,
+   "rps": 24,
+   "error_rate": 0.5,
+   "p95_ms": 354.4,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095058.8785236,
+   "rps": 25,
+   "error_rate": 0.52,
+   "p95_ms": 346.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095059.8788617,
+   "rps": 25,
+   "error_rate": 0.44,
+   "p95_ms": 322.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095060.8791766,
+   "rps": 24,
+   "error_rate": 0.5,
+   "p95_ms": 328.0,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095061.8796363,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 338.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095062.8798528,
+   "rps": 26,
+   "error_rate": 0.4615,
+   "p95_ms": 325.2,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095063.8803687,
+   "rps": 23,
+   "error_rate": 0.5217,
+   "p95_ms": 342.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095064.8806648,
+   "rps": 26,
+   "error_rate": 0.5,
+   "p95_ms": 348.3,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095065.8810687,
+   "rps": 24,
+   "error_rate": 0.5,
+   "p95_ms": 349.7,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095066.881472,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 344.9,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095067.8818672,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 331.5,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095068.8823564,
+   "rps": 25,
+   "error_rate": 0.48,
+   "p95_ms": 334.1,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  },
+  {
+   "ts": 1792095069.8826716,
+   "rps": 24,
+   "error_rate": 0.5,
+   "p95_ms": 337.8,
+   "mem_mb": 300.0,
+   "restarts": 0,
+   "db_in_use": 1,
+   "db_pool": 1
+  }
+ ],
+ "changes": [
+  {
+   "ts": 1791951030.8652163,
+   "kind": "config",
+   "detail": "Database pool_size lowered from 8 to 1",
+   "meta": {
+    "setting": "pool_size",
+    "from_": 8,
+    "to": 1
+   }
+  }
+ ]
+}
