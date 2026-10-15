@@ -50,13 +50,25 @@ def azure_deps() -> Deps:
     return Deps(AzureLogs(logs, cfg), AzureMetrics(logs, cfg), AzureChanges(monitor, cfg), AzureActionsNotWired(), DemoWorkItems(), RuleReasoner())
 
 
+def with_reasoner(deps: Deps) -> Deps:
+    """TRIAGE_REASONER=rules (default) or openai: swap the judgment layer without touching the connectors."""
+    which = os.getenv("TRIAGE_REASONER", "rules")
+    if which == "openai":
+        from triage.llm.azure_openai import from_env
+
+        deps.reasoner = from_env()
+    elif which != "rules":
+        raise ValueError(f"TRIAGE_REASONER={which!r} is not known. Use 'rules' or 'openai'.")
+    return deps
+
+
 def configured_env_deps() -> Deps | None:
     """The graph for real alerts. TRIAGE_MODE=env reads the demo environment, TRIAGE_MODE=azure reads Azure."""
     mode = os.getenv("TRIAGE_MODE", "demo")
     if mode == "demo":
         return None
     if mode == "env":
-        return env_deps()
+        return with_reasoner(env_deps())
     if mode == "azure":
-        return azure_deps()
+        return with_reasoner(azure_deps())
     raise ValueError(f"TRIAGE_MODE={mode!r} is not known. Use 'demo', 'env' or 'azure'.")

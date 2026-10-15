@@ -6,7 +6,7 @@ A team of eight AI agents that triages an Azure incident. An Azure Monitor alert
 
 ## Status
 
-Early. The agent graph runs end to end. In **demo environment** mode the agents investigate a real service that you break on demand, reading its actual logs, metrics and change history, and a fix they apply really heals it. The reasoning there is rules-based, not an LLM yet. The Azure connectors are written and tested against fakes; running them on a real subscription is next, followed by an Azure OpenAI reasoner. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
+Early. The agent graph runs end to end. In **demo environment** mode the agents investigate a real service that you break on demand, reading its actual logs, metrics and change history, and a fix they apply really heals it. The reasoning there is rules-based by default; an Azure OpenAI reasoner (`TRIAGE_REASONER=openai`) is built and tested against a scripted model. The Azure connectors and that reasoner are tested against fakes; running them on a real subscription is next. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
 
 | Part | State |
 |---|---|
@@ -14,9 +14,10 @@ Early. The agent graph runs end to end. In **demo environment** mode the agents 
 | LangGraph agent graph, approval pause, event stream, API (`backend/`) | Running in Docker, 86 tests |
 | Demo environment (`demo_env/shop/`): a sample service, fault injector, alert rule and telemetry API | Running in Docker, 13 tests |
 | Environment connectors and a rules-based reasoner that diagnoses from real telemetry | Running in Docker |
+| Azure OpenAI reasoner (guard-railed, falls back to rules), scored by `backend/evals/score.py` | Built, tested with a scripted model |
 | Connector interfaces | Defined; demo, environment and Azure implementations |
 | Azure connectors (Logs, Metrics, Change) and the Azure Monitor `/alerts` webhook | Built and tested against fakes of the Azure SDK. Not yet run against a real subscription |
-| Running on real Azure (infra is defined in `infra/`, not deployed), Azure Action connector, Azure OpenAI reasoner | Planned |
+| Running on real Azure (infra is defined in `infra/`, not deployed), Azure Action connector, trying the OpenAI reasoner on a real model | Planned |
 
 ## Run it
 

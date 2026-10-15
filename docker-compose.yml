@@ -4,6 +4,10 @@ services:
     environment:
       TRIAGE_MODE: env # alerts from the demo environment are investigated for real; demo_scenario runs stay scripted
       SHOP_URL: http://shop:8100
+      TRIAGE_REASONER: ${TRIAGE_REASONER:-rules} # "openai" also needs the three AZURE_OPENAI_* values, kept in an uncommitted .env
+      AZURE_OPENAI_ENDPOINT: ${AZURE_OPENAI_ENDPOINT:-}
+      AZURE_OPENAI_DEPLOYMENT: ${AZURE_OPENAI_DEPLOYMENT:-}
+      AZURE_OPENAI_API_KEY: ${AZURE_OPENAI_API_KEY:-}
       TRIAGE_STEP_DELAY: "0.6" # seconds between steps, so a run is watchable
       TRIAGE_VERIFY_WAIT: "6" # seconds the Action executor waits before checking that a fix worked
     ports:
