@@ -1,0 +1,329 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 1840" width="1180" role="img" aria-label="Incident triage architecture: eight agents, five connectors, Azure and Azure DevOps">
+<defs>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1e2a44"/></pattern>
+<marker id="m94a3b8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
+<marker id="mfbbf24" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#fbbf24"/></marker>
+<marker id="m38bdf8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#38bdf8"/></marker>
+<marker id="m818cf8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#818cf8"/></marker>
+<marker id="m34d399" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#34d399"/></marker>
+</defs>
+<style>text{font-family:Inter,'Segoe UI',Helvetica,Arial,sans-serif}.mono{font-family:'JetBrains Mono',Consolas,'Courier New',monospace}</style>
+<rect width="1180" height="1840" fill="#070b14"/><rect width="1180" height="1737" fill="url(#dots)"/>
+<path d="M302,134 C302,188 302,188 302,242" fill="none" stroke="#94a3b8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M302,134 C302,188 302,188 302,242" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m94a3b8)"/>
+<path d="M878,134 C878,188 878,188 878,242" fill="none" stroke="#fbbf24" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M878,134 C878,188 878,188 878,242" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#mfbbf24)"/>
+<path d="M792,275 C590,275 590,275 388,275" fill="none" stroke="#38bdf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M792,275 C590,275 590,275 388,275" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m38bdf8)"/>
+<path d="M302,308 C302,378 494,378 494,448" fill="none" stroke="#38bdf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M302,308 C302,378 494,378 494,448" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m38bdf8)"/>
+<path d="M580,497 C686,497 686,497 792,497" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M580,497 C686,497 686,497 792,497" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M494,546 C494,600 110,600 110,654" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M494,546 C494,600 110,600 110,654" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M494,546 C494,600 494,600 494,654" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M494,546 C494,600 494,600 494,654" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M494,546 C494,600 878,600 878,654" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M494,546 C494,600 878,600 878,654" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M110,736 C110,790 302,790 302,844" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M110,736 C110,790 302,790 302,844" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M494,736 C494,790 302,790 302,844" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M494,736 C494,790 302,790 302,844" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M878,736 C878,790 302,790 302,844" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M878,736 C878,790 302,790 302,844" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M256,844 C256,790 64,790 64,736" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M256,844 C256,790 64,790 64,736" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M388,893 C494,893 494,893 600,893" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M388,893 C494,893 494,893 600,893" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M686,942 C686,996 686,996 686,1050" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M686,942 C686,996 686,996 686,1050" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M686,1116 C686,1170 686,1170 686,1224" fill="none" stroke="#fbbf24" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M686,1116 C686,1170 686,1170 686,1224" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#mfbbf24)"/>
+<path d="M686,1116 C686,1170 302,1170 302,1224" fill="none" stroke="#fbbf24" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M686,1116 C686,1170 302,1170 302,1224" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#mfbbf24)"/>
+<path d="M600,1273 C494,1273 494,1273 388,1273" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M600,1273 C494,1273 494,1273 388,1273" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M110,736 C110,822.16 110,1008.8399999999999 110,1454" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M110,736 C110,822.16 110,1008.8399999999999 110,1454" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M494,736 C494,822.16 494,1008.8399999999999 494,1454" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M494,736 C494,822.16 494,1008.8399999999999 494,1454" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M878,736 C878,822.16 878,1008.8399999999999 878,1454" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M878,736 C878,822.16 878,1008.8399999999999 878,1454" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M686,1322 C686,1388 686,1388 686,1454" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M686,1322 C686,1388 686,1388 686,1454" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M302,1322 C302,1388 302,1388 302,1454" fill="none" stroke="#818cf8" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M302,1322 C302,1388 302,1388 302,1454" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m818cf8)"/>
+<path d="M110,1536 C110,1590 110,1590 110,1644" fill="none" stroke="#34d399" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M110,1536 C110,1590 110,1590 110,1644" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m34d399)"/>
+<path d="M302,1536 C302,1590 302,1590 302,1644" fill="none" stroke="#34d399" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M302,1536 C302,1590 302,1590 302,1644" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m34d399)"/>
+<path d="M494,1536 C494,1590 494,1590 494,1644" fill="none" stroke="#34d399" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M494,1536 C494,1590 494,1590 494,1644" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m34d399)"/>
+<path d="M686,1536 C686,1590 686,1590 686,1644" fill="none" stroke="#34d399" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M686,1536 C686,1590 686,1590 686,1644" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m34d399)"/>
+<path d="M878,1536 C878,1590 878,1590 878,1644" fill="none" stroke="#34d399" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M878,1536 C878,1590 878,1590 878,1644" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m34d399)"/>
+<path d="M878,1536 C878,1590 1070,1590 1070,1644" fill="none" stroke="#34d399" stroke-opacity="0.18" stroke-width="5"/>
+<path d="M878,1536 C878,1590 1070,1590 1070,1644" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="6 6" marker-end="url(#m34d399)"/>
+<rect x="8" y="388" width="1164" height="958" rx="24" fill="#818cf8" fill-opacity="0.04" stroke="#818cf8" stroke-opacity="0.53" stroke-dasharray="5 5"/>
+<rect x="32" y="376" width="234.8" height="24" rx="12" fill="#0b1120" stroke="#818cf8" stroke-opacity="0.67"/>
+<text x="46" y="392" font-size="11" font-weight="600" letter-spacing="1.8" fill="#818cf8">AGENT TEAM · LANGGRAPH</text>
+<rect x="24" y="22" width="203.39999999999998" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="32" x2="48" y2="32" stroke="#1e2a44"/>
+<text x="56" y="36" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">OUTSIDE</text>
+<text x="129.8" y="36" font-size="10.5" fill="#8b98b5" fill-opacity="0.6">people and Azure</text>
+<rect x="24" y="212" width="85" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="222" x2="48" y2="222" stroke="#1e2a44"/>
+<text x="56" y="226" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">ENTRY</text>
+<rect x="24" y="418" width="289.6" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="428" x2="48" y2="428" stroke="#1e2a44"/>
+<text x="56" y="432" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">ORCHESTRATOR</text>
+<text x="176.8" y="432" font-size="10.5" fill="#8b98b5" fill-opacity="0.6">LangGraph state machine</text>
+<rect x="24" y="624" width="334.6" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="634" x2="48" y2="634" stroke="#1e2a44"/>
+<text x="56" y="638" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">EVIDENCE AGENTS</text>
+<text x="205" y="638" font-size="10.5" fill="#8b98b5" fill-opacity="0.6">run in parallel, read-only</text>
+<rect x="24" y="814" width="283.8" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="824" x2="48" y2="824" stroke="#1e2a44"/>
+<text x="56" y="828" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">REASONING</text>
+<text x="148.60000000000002" y="828" font-size="10.5" fill="#8b98b5" fill-opacity="0.6">no tools, only the evidence</text>
+<rect x="24" y="1020" width="197.8" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="1030" x2="48" y2="1030" stroke="#1e2a44"/>
+<text x="56" y="1034" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">HUMAN IN THE LOOP</text>
+<rect x="24" y="1194" width="300.4" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="1204" x2="48" y2="1204" stroke="#1e2a44"/>
+<text x="56" y="1208" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">ACTION</text>
+<text x="120.4" y="1208" font-size="10.5" fill="#8b98b5" fill-opacity="0.6">the only agents that write anything</text>
+<rect x="24" y="1424" width="474.59999999999997" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="1434" x2="48" y2="1434" stroke="#1e2a44"/>
+<text x="56" y="1438" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">CONNECTOR LAYER</text>
+<text x="205" y="1438" font-size="10.5" fill="#8b98b5" fill-opacity="0.6">the only way agents reach Azure; demo mode swaps it</text>
+<rect x="24" y="1614" width="350" height="18" rx="3" fill="#070b14"/>
+<line x1="24" y1="1624" x2="48" y2="1624" stroke="#1e2a44"/>
+<text x="56" y="1628" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#8b98b5">AZURE AND AZURE DEVOPS</text>
+<text x="270.8" y="1628" font-size="10.5" fill="#8b98b5" fill-opacity="0.6">your subscription</text>
+<rect x="216" y="52" width="172" height="82" rx="14" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.45"/>
+<rect x="224" y="78" width="30" height="30" rx="9" fill="#94a3b8" fill-opacity="0.2"/>
+<circle cx="239" cy="93" r="5" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="262" y="76" font-size="13" font-weight="600" fill="#fff">Azure Monitor</text>
+<text x="262" y="92" font-size="13" font-weight="600" fill="#fff">alert</text>
+<text x="262" y="107" font-size="10.5" fill="#8b98b5">Action Group</text>
+<text x="262" y="120" font-size="10.5" fill="#8b98b5">webhook</text>
+<rect x="792" y="52" width="172" height="82" rx="14" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.45"/>
+<rect x="800" y="78" width="30" height="30" rx="9" fill="#fbbf24" fill-opacity="0.2"/>
+<circle cx="815" cy="93" r="5" fill="none" stroke="#fbbf24" stroke-width="1.8"/>
+<text x="838" y="76" font-size="13" font-weight="600" fill="#fff">On-call</text>
+<text x="838" y="92" font-size="13" font-weight="600" fill="#fff">engineer</text>
+<text x="838" y="107" font-size="10.5" fill="#8b98b5">opens the site,</text>
+<text x="838" y="120" font-size="10.5" fill="#8b98b5">approves fixes</text>
+<rect x="216" y="242" width="172" height="66" rx="14" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.45"/>
+<rect x="224" y="260" width="30" height="30" rx="9" fill="#38bdf8" fill-opacity="0.2"/>
+<circle cx="239" cy="275" r="5" fill="none" stroke="#38bdf8" stroke-width="1.8"/>
+<text x="262" y="266" font-size="13" font-weight="600" fill="#fff">Triage API</text>
+<text x="262" y="281" font-size="10.5" fill="#8b98b5">FastAPI: /alerts,</text>
+<text x="262" y="294" font-size="10.5" fill="#8b98b5">/runs</text>
+<rect x="792" y="242" width="172" height="66" rx="14" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.45"/>
+<rect x="800" y="260" width="30" height="30" rx="9" fill="#38bdf8" fill-opacity="0.2"/>
+<circle cx="815" cy="275" r="5" fill="none" stroke="#38bdf8" stroke-width="1.8"/>
+<text x="838" y="266" font-size="13" font-weight="600" fill="#fff">Frontend</text>
+<text x="838" y="281" font-size="10.5" fill="#8b98b5">nginx serves this</text>
+<text x="838" y="294" font-size="10.5" fill="#8b98b5">site</text>
+<rect x="408" y="448" width="172" height="98" rx="16" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="441" cy="497" r="22" fill="#818cf8" fill-opacity="0.28" stroke="#818cf8" stroke-opacity="0.67" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="432" y="492" width="18" height="13" rx="3.5"/><line x1="441" y1="492" x2="441" y2="487"/><line x1="429" y1="497.5" x2="429" y2="501.5"/><line x1="453" y1="497.5" x2="453" y2="501.5"/></g>
+<circle cx="441" cy="485.5" r="1.8" fill="#fff"/><circle cx="437.4" cy="498.5" r="1.7" fill="#fff"/><circle cx="444.6" cy="498.5" r="1.7" fill="#fff"/>
+<circle cx="456" cy="513" r="9" fill="#0b1120" stroke="#818cf8"/><circle cx="456" cy="513" r="2.6" fill="#818cf8"/>
+<text x="472" y="470" font-size="9" font-weight="600" letter-spacing="1.5" fill="#818cf8">AGENT</text>
+<text x="472" y="486" font-size="13" font-weight="600" fill="#fff">Triage</text>
+<text x="472" y="502" font-size="13" font-weight="600" fill="#fff">supervisor</text>
+<text x="472" y="517" font-size="10.5" fill="#8b98b5">classify, plan,</text>
+<text x="472" y="530" font-size="10.5" fill="#8b98b5">route</text>
+<rect x="792" y="448" width="172" height="98" rx="14" fill="#fb923c" fill-opacity="0.12" stroke="#fb923c" stroke-opacity="0.45"/>
+<rect x="800" y="482" width="30" height="30" rx="9" fill="#fb923c" fill-opacity="0.2"/>
+<circle cx="815" cy="497" r="5" fill="none" stroke="#fb923c" stroke-width="1.8"/>
+<text x="838" y="488" font-size="13" font-weight="600" fill="#fff">Azure OpenAI</text>
+<text x="838" y="503" font-size="10.5" fill="#8b98b5">every agent reasons</text>
+<text x="838" y="516" font-size="10.5" fill="#8b98b5">here</text>
+<rect x="24" y="654" width="172" height="82" rx="16" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="57" cy="695" r="22" fill="#818cf8" fill-opacity="0.28" stroke="#818cf8" stroke-opacity="0.67" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="48" y="690" width="18" height="13" rx="3.5"/><line x1="57" y1="690" x2="57" y2="685"/><line x1="45" y1="695.5" x2="45" y2="699.5"/><line x1="69" y1="695.5" x2="69" y2="699.5"/></g>
+<circle cx="57" cy="683.5" r="1.8" fill="#fff"/><circle cx="53.4" cy="696.5" r="1.7" fill="#fff"/><circle cx="60.6" cy="696.5" r="1.7" fill="#fff"/>
+<circle cx="72" cy="711" r="9" fill="#0b1120" stroke="#818cf8"/><circle cx="72" cy="711" r="2.6" fill="#818cf8"/>
+<text x="88" y="682.5" font-size="9" font-weight="600" letter-spacing="1.5" fill="#818cf8">AGENT</text>
+<text x="88" y="698.5" font-size="13" font-weight="600" fill="#fff">Logs agent</text>
+<text x="88" y="713.5" font-size="10.5" fill="#8b98b5">error patterns</text>
+<rect x="408" y="654" width="172" height="82" rx="16" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="441" cy="695" r="22" fill="#818cf8" fill-opacity="0.28" stroke="#818cf8" stroke-opacity="0.67" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="432" y="690" width="18" height="13" rx="3.5"/><line x1="441" y1="690" x2="441" y2="685"/><line x1="429" y1="695.5" x2="429" y2="699.5"/><line x1="453" y1="695.5" x2="453" y2="699.5"/></g>
+<circle cx="441" cy="683.5" r="1.8" fill="#fff"/><circle cx="437.4" cy="696.5" r="1.7" fill="#fff"/><circle cx="444.6" cy="696.5" r="1.7" fill="#fff"/>
+<circle cx="456" cy="711" r="9" fill="#0b1120" stroke="#818cf8"/><circle cx="456" cy="711" r="2.6" fill="#818cf8"/>
+<text x="472" y="676" font-size="9" font-weight="600" letter-spacing="1.5" fill="#818cf8">AGENT</text>
+<text x="472" y="692" font-size="13" font-weight="600" fill="#fff">Metrics agent</text>
+<text x="472" y="707" font-size="10.5" fill="#8b98b5">spikes,</text>
+<text x="472" y="720" font-size="10.5" fill="#8b98b5">saturation</text>
+<rect x="792" y="654" width="172" height="82" rx="16" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="825" cy="695" r="22" fill="#818cf8" fill-opacity="0.28" stroke="#818cf8" stroke-opacity="0.67" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="816" y="690" width="18" height="13" rx="3.5"/><line x1="825" y1="690" x2="825" y2="685"/><line x1="813" y1="695.5" x2="813" y2="699.5"/><line x1="837" y1="695.5" x2="837" y2="699.5"/></g>
+<circle cx="825" cy="683.5" r="1.8" fill="#fff"/><circle cx="821.4" cy="696.5" r="1.7" fill="#fff"/><circle cx="828.6" cy="696.5" r="1.7" fill="#fff"/>
+<circle cx="840" cy="711" r="9" fill="#0b1120" stroke="#818cf8"/><circle cx="840" cy="711" r="2.6" fill="#818cf8"/>
+<text x="856" y="676" font-size="9" font-weight="600" letter-spacing="1.5" fill="#818cf8">AGENT</text>
+<text x="856" y="692" font-size="13" font-weight="600" fill="#fff">Change agent</text>
+<text x="856" y="707" font-size="10.5" fill="#8b98b5">deploys, config</text>
+<text x="856" y="720" font-size="10.5" fill="#8b98b5">diffs</text>
+<rect x="216" y="844" width="172" height="98" rx="16" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="249" cy="893" r="22" fill="#818cf8" fill-opacity="0.28" stroke="#818cf8" stroke-opacity="0.67" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="240" y="888" width="18" height="13" rx="3.5"/><line x1="249" y1="888" x2="249" y2="883"/><line x1="237" y1="893.5" x2="237" y2="897.5"/><line x1="261" y1="893.5" x2="261" y2="897.5"/></g>
+<circle cx="249" cy="881.5" r="1.8" fill="#fff"/><circle cx="245.4" cy="894.5" r="1.7" fill="#fff"/><circle cx="252.6" cy="894.5" r="1.7" fill="#fff"/>
+<circle cx="264" cy="909" r="9" fill="#0b1120" stroke="#818cf8"/><circle cx="264" cy="909" r="2.6" fill="#818cf8"/>
+<text x="280" y="866" font-size="9" font-weight="600" letter-spacing="1.5" fill="#818cf8">AGENT</text>
+<text x="280" y="882" font-size="13" font-weight="600" fill="#fff">Diagnosis</text>
+<text x="280" y="898" font-size="13" font-weight="600" fill="#fff">agent</text>
+<text x="280" y="913" font-size="10.5" fill="#8b98b5">ranked root</text>
+<text x="280" y="926" font-size="10.5" fill="#8b98b5">causes</text>
+<rect x="600" y="844" width="172" height="98" rx="16" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="633" cy="893" r="22" fill="#818cf8" fill-opacity="0.28" stroke="#818cf8" stroke-opacity="0.67" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="624" y="888" width="18" height="13" rx="3.5"/><line x1="633" y1="888" x2="633" y2="883"/><line x1="621" y1="893.5" x2="621" y2="897.5"/><line x1="645" y1="893.5" x2="645" y2="897.5"/></g>
+<circle cx="633" cy="881.5" r="1.8" fill="#fff"/><circle cx="629.4" cy="894.5" r="1.7" fill="#fff"/><circle cx="636.6" cy="894.5" r="1.7" fill="#fff"/>
+<circle cx="648" cy="909" r="9" fill="#0b1120" stroke="#818cf8"/><circle cx="648" cy="909" r="2.6" fill="#818cf8"/>
+<text x="664" y="866" font-size="9" font-weight="600" letter-spacing="1.5" fill="#818cf8">AGENT</text>
+<text x="664" y="882" font-size="13" font-weight="600" fill="#fff">Remediation</text>
+<text x="664" y="898" font-size="13" font-weight="600" fill="#fff">agent</text>
+<text x="664" y="913" font-size="10.5" fill="#8b98b5">fix options and</text>
+<text x="664" y="926" font-size="10.5" fill="#8b98b5">risk</text>
+<rect x="600" y="1050" width="172" height="66" rx="14" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.45"/>
+<rect x="608" y="1068" width="30" height="30" rx="9" fill="#fbbf24" fill-opacity="0.2"/>
+<circle cx="623" cy="1083" r="5" fill="none" stroke="#fbbf24" stroke-width="1.8"/>
+<text x="646" y="1074" font-size="13" font-weight="600" fill="#fff">Approval gate</text>
+<text x="646" y="1089" font-size="10.5" fill="#8b98b5">nothing runs</text>
+<text x="646" y="1102" font-size="10.5" fill="#8b98b5">without a person</text>
+<rect x="216" y="1224" width="172" height="98" rx="16" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="249" cy="1273" r="22" fill="#818cf8" fill-opacity="0.28" stroke="#818cf8" stroke-opacity="0.67" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="240" y="1268" width="18" height="13" rx="3.5"/><line x1="249" y1="1268" x2="249" y2="1263"/><line x1="237" y1="1273.5" x2="237" y2="1277.5"/><line x1="261" y1="1273.5" x2="261" y2="1277.5"/></g>
+<circle cx="249" cy="1261.5" r="1.8" fill="#fff"/><circle cx="245.4" cy="1274.5" r="1.7" fill="#fff"/><circle cx="252.6" cy="1274.5" r="1.7" fill="#fff"/>
+<circle cx="264" cy="1289" r="9" fill="#0b1120" stroke="#818cf8"/><circle cx="264" cy="1289" r="2.6" fill="#818cf8"/>
+<text x="280" y="1246" font-size="9" font-weight="600" letter-spacing="1.5" fill="#818cf8">AGENT</text>
+<text x="280" y="1262" font-size="13" font-weight="600" fill="#fff">Postmortem</text>
+<text x="280" y="1278" font-size="13" font-weight="600" fill="#fff">agent</text>
+<text x="280" y="1293" font-size="10.5" fill="#8b98b5">timeline, cause,</text>
+<text x="280" y="1306" font-size="10.5" fill="#8b98b5">follow-ups</text>
+<rect x="600" y="1224" width="172" height="98" rx="16" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="633" cy="1273" r="22" fill="#818cf8" fill-opacity="0.28" stroke="#818cf8" stroke-opacity="0.67" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="624" y="1268" width="18" height="13" rx="3.5"/><line x1="633" y1="1268" x2="633" y2="1263"/><line x1="621" y1="1273.5" x2="621" y2="1277.5"/><line x1="645" y1="1273.5" x2="645" y2="1277.5"/></g>
+<circle cx="633" cy="1261.5" r="1.8" fill="#fff"/><circle cx="629.4" cy="1274.5" r="1.7" fill="#fff"/><circle cx="636.6" cy="1274.5" r="1.7" fill="#fff"/>
+<circle cx="648" cy="1289" r="9" fill="#0b1120" stroke="#818cf8"/><circle cx="648" cy="1289" r="2.6" fill="#818cf8"/>
+<text x="664" y="1246" font-size="9" font-weight="600" letter-spacing="1.5" fill="#818cf8">AGENT</text>
+<text x="664" y="1262" font-size="13" font-weight="600" fill="#fff">Action</text>
+<text x="664" y="1278" font-size="13" font-weight="600" fill="#fff">executor</text>
+<text x="664" y="1293" font-size="10.5" fill="#8b98b5">runs the</text>
+<text x="664" y="1306" font-size="10.5" fill="#8b98b5">approved fix</text>
+<rect x="24" y="1454" width="172" height="82" rx="14" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.45"/>
+<rect x="32" y="1480" width="30" height="30" rx="9" fill="#34d399" fill-opacity="0.2"/>
+<circle cx="47" cy="1495" r="5" fill="none" stroke="#34d399" stroke-width="1.8"/>
+<text x="70" y="1492.5" font-size="13" font-weight="600" fill="#fff">Logs connector</text>
+<text x="70" y="1507.5" font-size="10.5" fill="#8b98b5">templated KQL</text>
+<rect x="216" y="1454" width="172" height="82" rx="14" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.45"/>
+<rect x="224" y="1480" width="30" height="30" rx="9" fill="#34d399" fill-opacity="0.2"/>
+<circle cx="239" cy="1495" r="5" fill="none" stroke="#34d399" stroke-width="1.8"/>
+<text x="262" y="1484.5" font-size="13" font-weight="600" fill="#fff">Work item</text>
+<text x="262" y="1500.5" font-size="13" font-weight="600" fill="#fff">connector</text>
+<text x="262" y="1515.5" font-size="10.5" fill="#8b98b5">writes to Boards</text>
+<rect x="408" y="1454" width="172" height="82" rx="14" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.45"/>
+<rect x="416" y="1480" width="30" height="30" rx="9" fill="#34d399" fill-opacity="0.2"/>
+<circle cx="431" cy="1495" r="5" fill="none" stroke="#34d399" stroke-width="1.8"/>
+<text x="454" y="1484.5" font-size="13" font-weight="600" fill="#fff">Metrics</text>
+<text x="454" y="1500.5" font-size="13" font-weight="600" fill="#fff">connector</text>
+<text x="454" y="1515.5" font-size="10.5" fill="#8b98b5">metric queries</text>
+<rect x="600" y="1454" width="172" height="82" rx="14" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.45"/>
+<rect x="608" y="1480" width="30" height="30" rx="9" fill="#34d399" fill-opacity="0.2"/>
+<circle cx="623" cy="1495" r="5" fill="none" stroke="#34d399" stroke-width="1.8"/>
+<text x="646" y="1478" font-size="13" font-weight="600" fill="#fff">Action</text>
+<text x="646" y="1494" font-size="13" font-weight="600" fill="#fff">connector</text>
+<text x="646" y="1509" font-size="10.5" fill="#8b98b5">restart, scale,</text>
+<text x="646" y="1522" font-size="10.5" fill="#8b98b5">rollback</text>
+<rect x="792" y="1454" width="172" height="82" rx="14" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.45"/>
+<rect x="800" y="1480" width="30" height="30" rx="9" fill="#34d399" fill-opacity="0.2"/>
+<circle cx="815" cy="1495" r="5" fill="none" stroke="#34d399" stroke-width="1.8"/>
+<text x="838" y="1478" font-size="13" font-weight="600" fill="#fff">Change</text>
+<text x="838" y="1494" font-size="13" font-weight="600" fill="#fff">connector</text>
+<text x="838" y="1509" font-size="10.5" fill="#8b98b5">Activity Log,</text>
+<text x="838" y="1522" font-size="10.5" fill="#8b98b5">DevOps reads</text>
+<rect x="24" y="1644" width="172" height="69" rx="14" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.45"/>
+<rect x="32" y="1663.5" width="30" height="30" rx="9" fill="#94a3b8" fill-opacity="0.2"/>
+<circle cx="47" cy="1678.5" r="5" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="70" y="1676" font-size="13" font-weight="600" fill="#fff">Log Analytics</text>
+<text x="70" y="1691" font-size="10.5" fill="#8b98b5">KQL query API</text>
+<rect x="216" y="1644" width="172" height="69" rx="14" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.45"/>
+<rect x="224" y="1663.5" width="30" height="30" rx="9" fill="#94a3b8" fill-opacity="0.2"/>
+<circle cx="239" cy="1678.5" r="5" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="262" y="1668" font-size="13" font-weight="600" fill="#fff">Azure DevOps</text>
+<text x="262" y="1684" font-size="13" font-weight="600" fill="#fff">Boards</text>
+<text x="262" y="1699" font-size="10.5" fill="#8b98b5">work items</text>
+<rect x="408" y="1644" width="172" height="69" rx="14" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.45"/>
+<rect x="416" y="1663.5" width="30" height="30" rx="9" fill="#94a3b8" fill-opacity="0.2"/>
+<circle cx="431" cy="1678.5" r="5" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="454" y="1676" font-size="13" font-weight="600" fill="#fff">Azure Monitor</text>
+<text x="454" y="1691" font-size="10.5" fill="#8b98b5">metrics API</text>
+<rect x="600" y="1644" width="172" height="69" rx="14" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.45"/>
+<rect x="608" y="1663.5" width="30" height="30" rx="9" fill="#94a3b8" fill-opacity="0.2"/>
+<circle cx="623" cy="1678.5" r="5" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="646" y="1669.5" font-size="13" font-weight="600" fill="#fff">Azure resources</text>
+<text x="646" y="1684.5" font-size="10.5" fill="#8b98b5">App Service, AKS,</text>
+<text x="646" y="1697.5" font-size="10.5" fill="#8b98b5">VMs</text>
+<rect x="792" y="1644" width="172" height="69" rx="14" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.45"/>
+<rect x="800" y="1663.5" width="30" height="30" rx="9" fill="#94a3b8" fill-opacity="0.2"/>
+<circle cx="815" cy="1678.5" r="5" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="838" y="1676" font-size="13" font-weight="600" fill="#fff">Activity Log</text>
+<text x="838" y="1691" font-size="10.5" fill="#8b98b5">who changed what</text>
+<rect x="984" y="1644" width="172" height="69" rx="14" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.45"/>
+<rect x="992" y="1663.5" width="30" height="30" rx="9" fill="#94a3b8" fill-opacity="0.2"/>
+<circle cx="1007" cy="1678.5" r="5" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="1030" y="1676" font-size="13" font-weight="600" fill="#fff">Azure DevOps</text>
+<text x="1030" y="1691" font-size="10.5" fill="#8b98b5">Pipelines, Repos</text>
+<rect x="270.9" y="179" width="62.199999999999996" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="302" y="191.5" font-size="10" text-anchor="middle" fill="#8b98b5">webhook</text>
+<rect x="853.5" y="179" width="49" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="878" y="191.5" font-size="10" text-anchor="middle" fill="#8b98b5">HTTPS</text>
+<rect x="568.8" y="266" width="42.4" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="590" y="278.5" font-size="10" text-anchor="middle" fill="#8b98b5">/api</text>
+<rect x="360.3" y="369" width="75.4" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="398" y="381.5" font-size="10" text-anchor="middle" fill="#8b98b5">start run</text>
+<rect x="171.6" y="781" width="68.8" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="206" y="793.5" font-size="10" text-anchor="middle" fill="#8b98b5">findings</text>
+<rect x="89.30000000000001" y="781" width="141.39999999999998" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="160" y="793.5" font-size="10" text-anchor="middle" fill="#8b98b5">needs more evidence</text>
+<rect x="453" y="884" width="82" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="494" y="896.5" font-size="10" text-anchor="middle" fill="#8b98b5">root cause</text>
+<rect x="638.4" y="987" width="95.19999999999999" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="686" y="999.5" font-size="10" text-anchor="middle" fill="#8b98b5">proposed fix</text>
+<rect x="651.6" y="1161" width="68.8" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="686" y="1173.5" font-size="10" text-anchor="middle" fill="#8b98b5">approved</text>
+<rect x="466.2" y="1161" width="55.599999999999994" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="494" y="1173.5" font-size="10" text-anchor="middle" fill="#8b98b5">always</text>
+<rect x="466.2" y="1264" width="55.599999999999994" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="494" y="1276.5" font-size="10" text-anchor="middle" fill="#8b98b5">result</text>
+<rect x="92.1" y="1086" width="35.8" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="110" y="1098.5" font-size="10" text-anchor="middle" fill="#8b98b5">KQL</text>
+<rect x="462.9" y="1086" width="62.199999999999996" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="494" y="1098.5" font-size="10" text-anchor="middle" fill="#8b98b5">metrics</text>
+<rect x="840.3" y="1086" width="75.4" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="878" y="1098.5" font-size="10" text-anchor="middle" fill="#8b98b5">read-only</text>
+<rect x="631.8" y="1379" width="108.39999999999999" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="686" y="1391.5" font-size="10" text-anchor="middle" fill="#8b98b5">after approval</text>
+<rect x="264.3" y="1379" width="75.4" height="18" rx="9" fill="#0b1120" stroke="#1e2a44"/>
+<text class="mono" x="302" y="1391.5" font-size="10" text-anchor="middle" fill="#8b98b5">work item</text>
+<rect x="24" y="1754" width="20" height="12" rx="3" fill="#94a3b8" fill-opacity="0.2" stroke="#94a3b8"/>
+<text x="52" y="1764" font-size="12" fill="#8b98b5">People and Azure services</text>
+<rect x="234" y="1754" width="20" height="12" rx="3" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24"/>
+<text x="262" y="1764" font-size="12" fill="#8b98b5">Human in the loop</text>
+<rect x="392.8" y="1754" width="20" height="12" rx="3" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8"/>
+<text x="420.8" y="1764" font-size="12" fill="#8b98b5">Entry (nginx, API)</text>
+<rect x="558" y="1754" width="20" height="12" rx="3" fill="#818cf8" fill-opacity="0.2" stroke="#818cf8"/>
+<text x="586" y="1764" font-size="12" fill="#8b98b5">Agents</text>
+<rect x="646.4" y="1754" width="20" height="12" rx="3" fill="#fb923c" fill-opacity="0.2" stroke="#fb923c"/>
+<text x="674.4" y="1764" font-size="12" fill="#8b98b5">Shared services</text>
+<rect x="792.4" y="1754" width="20" height="12" rx="3" fill="#34d399" fill-opacity="0.2" stroke="#34d399"/>
+<text x="820.4" y="1764" font-size="12" fill="#8b98b5">Connectors</text>
+<text x="24" y="1787" font-size="11.5" fill="#8b98b5" fill-opacity="0.8">Eight agents share one run. The Triage supervisor starts three evidence agents in parallel; Diagnosis weighs their findings and can send them back out for more. Agents never call Azure directly: each</text>
+<text x="24" y="1802" font-size="11.5" fill="#8b98b5" fill-opacity="0.8">evidence agent reads through its own connector, and the one connector that can change a resource (Action) is reachable only after a person approves. In demo mode the connector layer points at Prometheus,</text>
+<text x="24" y="1817" font-size="11.5" fill="#8b98b5" fill-opacity="0.8">Loki and a fault injector instead of Azure.</text>
+</svg>
