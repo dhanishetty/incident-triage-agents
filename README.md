@@ -6,12 +6,14 @@ A team of eight AI agents that triages an Azure incident. An Azure Monitor alert
 
 ## Status
 
-Early. The architecture and an animated replay of a simulated incident are built and run in Docker. The agent backend is not started. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
+Early. The agent graph runs end to end in demo mode, against built-in incident data and a scripted stand-in for the LLM. Azure connectors and a real LLM are next. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
 
 | Part | State |
 |---|---|
 | Architecture page and **Play a run** replay (`frontend/`) | Running in Docker |
-| Triage API, LangGraph agent graph, connectors, demo environment | Planned |
+| LangGraph agent graph, approval pause, event stream, API (`backend/`) | Running in Docker, demo mode, 25 tests |
+| Connector interfaces | Defined, demo implementations only |
+| Azure connectors, Azure OpenAI reasoner, live UI on real runs | Planned |
 
 ## Run it
 
@@ -21,9 +23,28 @@ Needs Docker.
 docker compose up -d --build
 ```
 
-Open http://localhost:8080 and press **Play a run**. Pick an incident, watch the agents work in parallel, then approve or reject the proposed fix at the gate.
+- http://localhost:8080 is the site. Press **Play a run** to replay a simulated incident.
+- http://localhost:8010/docs is the API. Start a real run (demo data) and watch it:
+
+```bash
+curl -X POST localhost:8010/runs -H 'content-type: application/json' \
+  -d '{"title":"orders-api latency","resource":"orders-api","labels":{"demo_scenario":"bad-deploy"}}'
+curl -N localhost:8010/runs/<id>/events                 # server-sent events
+curl -X POST localhost:8010/runs/<id>/approval -H 'content-type: application/json' -d '{"decision":"approve"}'
+```
+
+Demo scenarios: `bad-deploy`, `memory-leak`, `db-connections`. The run pauses at the approval gate until you approve or reject.
 
 Stop it with `docker compose down`.
+
+## Test the backend
+
+```bash
+docker run --rm -v "$PWD":/repo -w /repo/backend python:3.12-slim \
+  sh -c "pip install -q -e '.[dev]' && python -m pytest -q"
+```
+
+The tests check each scenario and the loop back for more evidence, that the three evidence agents truly run in parallel, that a reject changes nothing, and that every node and link the backend emits exists in the frontend diagram.
 
 ## Develop the frontend
 

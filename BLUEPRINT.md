@@ -102,7 +102,11 @@ The agents call **tools**, and each tool is a thin adapter over an Azure API. To
 2. **Demo mode**: simulated app, Prometheus and Loki connectors, fault injector, scored scenarios.
 3. **Azure DevOps** connectors (Change reads, Work item writes) once the core agents work.
 
-Done so far: the architecture page (`frontend/`, Docker Compose, port 8080), including a **Play a run** replay on the Overview. It plays a scripted incident (bad deploy, memory leak or database connections) through the diagram, pauses at the approval gate for Approve or Reject, and writes an event log. The steps live in `frontend/src/features/architecture/scenarios.ts` and have the shape of the events the real backend should stream, so real runs can replace the script later.
+Backend skeleton (done): `backend/` holds the real agent graph in LangGraph with all eight agents, the approval pause (LangGraph `interrupt`), a FastAPI service (`/runs`, `/runs/{id}/events` as server-sent events, `/runs/{id}/approval`), connector interfaces in `connectors/base.py`, and a swappable `Reasoner` in `llm/`. It runs in demo mode: demo connectors serve the three incidents and a scripted reasoner stands in for the LLM, so it needs no Azure or API key. Events use the frontend diagram's node ids and link keys, and a contract test keeps the two in step.
+
+Next: Azure Monitor connectors (Logs, Metrics, Change), an Azure OpenAI reasoner, the demo environment with a fault injector, then the UI replaying real runs from the event stream.
+
+Also done: the architecture page (`frontend/`, Docker Compose, port 8080), including a **Play a run** replay on the Overview. It plays a scripted incident (bad deploy, memory leak or database connections) through the diagram, pauses at the approval gate for Approve or Reject, and writes an event log. The steps live in `frontend/src/features/architecture/scenarios.ts` and have the shape of the events the real backend should stream, so real runs can replace the script later.
 
 ## 6. Open questions
 

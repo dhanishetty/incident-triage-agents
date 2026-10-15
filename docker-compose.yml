@@ -1,8 +1,24 @@
 services:
+  backend:
+    build: ./backend
+    environment:
+      TRIAGE_MODE: demo # demo data and a scripted reasoner; no Azure or API keys needed
+      TRIAGE_STEP_DELAY: "0.6" # seconds between steps, so a run is watchable
+    ports:
+      - "8010:8000" # host port 8010: 8000 is often taken by other local projects
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz')"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+
   frontend:
     build: ./frontend
     ports:
       - "8080:80"
+    depends_on:
+      - backend
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1/healthz"]

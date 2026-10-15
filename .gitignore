@@ -7,3 +7,7 @@ dist/
 .DS_Store
 Thumbs.db
 .vscode/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
