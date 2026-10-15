@@ -4,6 +4,8 @@ A team of eight AI agents that triages an Azure incident. An Azure Monitor alert
 
 ![Architecture](docs/architecture.svg)
 
+One incident from alert to closed run: [docs/sequence.md](docs/sequence.md).
+
 ## Status
 
 Early. The agent graph runs end to end. In **demo environment** mode the agents investigate a real service that you break on demand, reading its actual logs, metrics and change history, and a fix they apply really heals it. The reasoning there is rules-based by default; an Azure OpenAI reasoner (`TRIAGE_REASONER=openai`) is built and tested against a scripted model. The Azure connectors and that reasoner are tested against fakes; running them on a real subscription is next. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
