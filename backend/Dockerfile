@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY pyproject.toml ./
 COPY src ./src
-RUN pip install .
+RUN pip install ".[azure]"
 
 # Run as a normal user, not root
 RUN useradd --create-home app

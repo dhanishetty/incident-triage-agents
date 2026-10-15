@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import asyncio
+import hmac
 import os
 from typing import Literal
 
@@ -9,6 +10,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
+from triage.azure_alerts import from_common_alert_schema
 from triage.deps import Deps, configured_env_deps, demo_deps
 from triage.events import RunEvent
 from triage.graph import build_graph
@@ -58,6 +60,21 @@ def create_app(deps: Deps | None = None, step_delay: float | None = None, env: D
     def start_run(alert: Alert) -> RunSummary:
         """Start a run for an alert. The graph works in the background; watch /runs/{id}/events."""
         return _summary(runs.start(alert))
+
+    @app.post("/alerts", status_code=202)
+    def azure_alert(payload: dict, token: str | None = None) -> dict:
+        """Where an Azure Monitor Action Group webhook posts (common alert schema). If TRIAGE_ALERT_TOKEN is set, the
+        webhook URL must carry it as ?token=..., since this endpoint is meant to be reachable from the internet."""
+        expected = os.getenv("TRIAGE_ALERT_TOKEN")
+        if expected and not (token and hmac.compare_digest(token, expected)):
+            raise HTTPException(401, "Missing or wrong token.")
+        try:
+            alert = from_common_alert_schema(payload)
+        except ValueError as exc:
+            raise HTTPException(422, str(exc)) from exc
+        if alert is None:
+            return {"ignored": "resolved"}  # a run is not needed when an alert clears
+        return _summary(runs.start(alert)).model_dump()
 
     @app.get("/runs", response_model=list[RunSummary])
     def list_runs() -> list[RunSummary]:

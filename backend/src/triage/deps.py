@@ -34,11 +34,29 @@ def env_deps(shop_url: str | None = None, verify_wait: float | None = None) -> D
     return Deps(EnvLogs(shop), EnvMetrics(shop), EnvChanges(shop), EnvActions(shop, wait), DemoWorkItems(), RuleReasoner())
 
 
+def azure_deps() -> Deps:
+    """Read-only Azure connectors (Log Analytics and the Activity Log). Credentials come from DefaultAzureCredential:
+    AZURE_CLIENT_ID, AZURE_TENANT_ID and AZURE_CLIENT_SECRET for a service principal, or a developer's `az login`."""
+    from azure.identity import DefaultAzureCredential  # imported here so demo and env modes do not need the SDK
+    from azure.mgmt.monitor import MonitorManagementClient
+    from azure.monitor.query import LogsQueryClient
+
+    from triage.connectors.azure import AzureActionsNotWired, AzureChanges, AzureConfig, AzureLogs, AzureMetrics
+
+    cfg = AzureConfig.from_env()
+    credential = DefaultAzureCredential()
+    logs = LogsQueryClient(credential)
+    monitor = MonitorManagementClient(credential, cfg.subscription_id)
+    return Deps(AzureLogs(logs, cfg), AzureMetrics(logs, cfg), AzureChanges(monitor, cfg), AzureActionsNotWired(), DemoWorkItems(), RuleReasoner())
+
+
 def configured_env_deps() -> Deps | None:
-    """TRIAGE_MODE=env turns on the environment connectors. Azure connectors will join as another mode."""
+    """The graph for real alerts. TRIAGE_MODE=env reads the demo environment, TRIAGE_MODE=azure reads Azure."""
     mode = os.getenv("TRIAGE_MODE", "demo")
     if mode == "demo":
         return None
     if mode == "env":
         return env_deps()
-    raise ValueError(f"TRIAGE_MODE={mode!r} is not built yet. Use 'demo' or 'env'; Azure connectors are next.")
+    if mode == "azure":
+        return azure_deps()
+    raise ValueError(f"TRIAGE_MODE={mode!r} is not known. Use 'demo', 'env' or 'azure'.")

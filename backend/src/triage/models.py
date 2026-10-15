@@ -57,8 +57,9 @@ class FixProposal(BaseModel):
 
 
 class ActionResult(BaseModel):
-    ok: bool
+    ok: bool  # the fix worked
     message: str
+    applied: bool = True  # False when nothing was done, for example when no safe automatic fix exists
 
 
 class Postmortem(BaseModel):

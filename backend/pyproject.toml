@@ -12,6 +12,11 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+azure = [
+    "azure-identity>=1.17",
+    "azure-monitor-query>=1.4",
+    "azure-mgmt-monitor>=6.0",
+]
 dev = ["pytest>=8"]
 
 [build-system]

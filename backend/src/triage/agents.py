@@ -129,7 +129,7 @@ def make_nodes(deps: Deps) -> dict[str, Callable]:
         em.say("Action executor", f"Applying: {p.action}.")
         result = deps.actions.apply(alert, p)
         em.say("Action executor", result.message)
-        em.node("executor", "done" if result.ok else "failed", "fixed" if result.ok else "failed")
+        em.node("executor", "done" if result.ok else "failed", "fixed" if result.ok else "failed" if result.applied else "not applied")
         em.node("carm", "done")
         em.node("azres", "done")
         return {"action": result.model_dump()}
@@ -137,9 +137,10 @@ def make_nodes(deps: Deps) -> dict[str, Callable]:
     def postmortem(state: dict, config: RunnableConfig) -> dict:
         em, alert = _em(config), Alert(**state["alert"])
         d, p = Diagnosis(**state["diagnosis"]), FixProposal(**state["proposal"])
-        applied = state.get("approval") == "approve"
-        fixed = applied and state.get("action", {}).get("ok", False)
-        outcome = "fixed" if fixed else "unhealthy" if applied else "rejected"
+        action = state.get("action", {})
+        applied = state.get("approval") == "approve" and action.get("applied", True)  # approved, and something was really done
+        fixed = applied and action.get("ok", False)
+        outcome = "fixed" if fixed else "unhealthy" if applied else "rejected"  # "rejected" also covers: approved, but nothing to apply
         em.node("postmortem", "working", "writing…")
         em.edges("executor-postmortem", "gate-postmortem") if state.get("approval") == "approve" else em.edges("gate-postmortem")
         em.say("Postmortem agent", "Drafting timeline, cause and follow-ups." if fixed else "Drafting a report that records the diagnosis and the proposed fix.")

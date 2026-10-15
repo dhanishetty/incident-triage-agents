@@ -6,16 +6,17 @@ A team of eight AI agents that triages an Azure incident. An Azure Monitor alert
 
 ## Status
 
-Early. The agent graph runs end to end. In **demo environment** mode the agents investigate a real service that you break on demand, reading its actual logs, metrics and change history, and a fix they apply really heals it. The reasoning there is rules-based, not an LLM yet. Azure connectors and an Azure OpenAI reasoner are next. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
+Early. The agent graph runs end to end. In **demo environment** mode the agents investigate a real service that you break on demand, reading its actual logs, metrics and change history, and a fix they apply really heals it. The reasoning there is rules-based, not an LLM yet. The Azure connectors are written and tested against fakes; running them on a real subscription is next, followed by an Azure OpenAI reasoner. See [BLUEPRINT.md](BLUEPRINT.md) for the design, the agent roster and the build order.
 
 | Part | State |
 |---|---|
 | Architecture page with **Play a run**: a simulated replay, or a live run on the backend (`frontend/`) | Running in Docker |
-| LangGraph agent graph, approval pause, event stream, API (`backend/`) | Running in Docker, 49 tests |
+| LangGraph agent graph, approval pause, event stream, API (`backend/`) | Running in Docker, 86 tests |
 | Demo environment (`demo_env/shop/`): a sample service, fault injector, alert rule and telemetry API | Running in Docker, 13 tests |
 | Environment connectors and a rules-based reasoner that diagnoses from real telemetry | Running in Docker |
-| Connector interfaces | Defined; demo and environment implementations |
-| Azure connectors and an Azure OpenAI reasoner | Planned |
+| Connector interfaces | Defined; demo, environment and Azure implementations |
+| Azure connectors (Logs, Metrics, Change) and the Azure Monitor `/alerts` webhook | Built and tested against fakes of the Azure SDK. Not yet run against a real subscription |
+| Running on real Azure (infra is defined in `infra/`, not deployed), Azure Action connector, Azure OpenAI reasoner | Planned |
 
 ## Run it
 
