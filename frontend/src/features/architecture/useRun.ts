@@ -1,19 +1,14 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { NodeRun, RunView } from "./FlowDiagram";
+import type { LogLine, RunApi } from "./runApi";
 import { scenarios, type Scenario, type Step } from "./scenarios";
-
-export interface LogLine {
-  time: string;
-  who: string;
-  text: string;
-}
 
 const START = 14 * 3600 + 2 * 60 + 11; // the simulated clock starts at 14:02:11
 const clock = (s: number) => [Math.floor(s / 3600) % 24, Math.floor(s / 60) % 60, s % 60].map((n) => String(n).padStart(2, "0")).join(":");
 
 // Drives a replay. Steps advance on a timer, or one at a time; the approval step waits for a person.
 // Decisions append the approved or rejected branch to the plan, so the run is one list of steps.
-export function useRun(focusKinds: Set<string>) {
+export function useRun(focusKinds: Set<string>): RunApi {
   const [scenarioId, setScenarioId] = useState(scenarios[0].id);
   const scenario: Scenario = scenarios.find((s) => s.id === scenarioId)!;
   const [plan, setPlan] = useState<Step[]>(scenario.pre);
@@ -95,5 +90,9 @@ export function useRun(focusKinds: Set<string>) {
     return out;
   }, [idx, plan]);
 
-  return { scenarios, scenario, pick, view, log, step, idx, playing, waiting, finished, speed, setSpeed, play, pause, next, decide, reset: () => reset() };
+  return {
+    mode: "simulated",
+    scenarios, scenario, pick, view, log, stepTitle: step?.title, idx, playing, waiting, finished, speed, setSpeed, play, pause, next, decide,
+    reset: () => reset(),
+  };
 }

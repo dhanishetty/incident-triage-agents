@@ -424,7 +424,7 @@ export default function FlowDiagram({ diagram, run }: { diagram: Diagram; run?: 
             {KINDS[k].label}
           </span>
         ))}
-        <span className="text-muted/70">{running ? "Replaying a simulated run. Lit boxes and moving dots show what is happening now." : "Hover a box to follow its connections."}</span>
+        <span className="text-muted/70">{running ? "A run is in progress. Lit boxes and moving dots show what is happening now." : "Hover a box to follow its connections."}</span>
         {note && <span className="basis-full text-muted/70">{note}</span>}
       </div>
     </div>

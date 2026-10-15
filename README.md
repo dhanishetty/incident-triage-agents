@@ -10,10 +10,10 @@ Early. The agent graph runs end to end in demo mode, against built-in incident d
 
 | Part | State |
 |---|---|
-| Architecture page and **Play a run** replay (`frontend/`) | Running in Docker |
+| Architecture page with **Play a run**: a simulated replay, or a live run on the backend (`frontend/`) | Running in Docker |
 | LangGraph agent graph, approval pause, event stream, API (`backend/`) | Running in Docker, demo mode, 25 tests |
 | Connector interfaces | Defined, demo implementations only |
-| Azure connectors, Azure OpenAI reasoner, live UI on real runs | Planned |
+| Azure connectors, Azure OpenAI reasoner, demo environment with a fault injector | Planned |
 
 ## Run it
 
@@ -23,7 +23,7 @@ Needs Docker.
 docker compose up -d --build
 ```
 
-- http://localhost:8080 is the site. Press **Play a run** to replay a simulated incident.
+- http://localhost:8080 is the site. Press **Play a run** for a simulated replay, or switch to **Live backend** and press **Start live run** to watch the real agent graph run on the server. Approve or reject at the gate in either mode.
 - http://localhost:8010/docs is the API. Start a real run (demo data) and watch it:
 
 ```bash

@@ -2,7 +2,8 @@ import { useState, type ReactNode } from "react";
 import clsx from "clsx";
 import FlowDiagram from "./FlowDiagram";
 import { overview } from "./diagrams";
-import { EventLog, RunBar } from "./RunControls";
+import { EventLog, RunBar, type Mode } from "./RunControls";
+import { useLiveRun } from "./useLiveRun";
 import { useRun } from "./useRun";
 
 type Status = "Running" | "Planned";
@@ -104,15 +105,29 @@ const TABS: { id: Tab; label: string }[] = [
 const FOCUS_IDS = new Set(Object.values(overview.nodes).filter((n) => n.kind === "agent" || n.kind === "human").map((n) => n.id));
 
 function Overview() {
-  const run = useRun(FOCUS_IDS);
+  const [mode, setMode] = useState<Mode>("simulated");
+  const simulated = useRun(FOCUS_IDS);
+  const live = useLiveRun(FOCUS_IDS);
+  const run = mode === "live" ? live : simulated;
+
+  const switchTo = (m: Mode) => {
+    simulated.reset(); // start the other source from a clean diagram
+    live.reset();
+    setMode(m);
+  };
+
   return (
     <div className="space-y-6">
       <div className="glass space-y-3 p-6">
         <h2 className="text-lg font-semibold">The whole picture</h2>
         <p className="text-sm text-muted">
-          {run.view ? run.scenario.blurb : "Arrows show who calls whom. Press Play a run to watch the agents handle a simulated incident."}
+          {mode === "live"
+            ? "Live backend: the real agent graph runs on the server with demo data and a scripted reasoner, and this diagram follows its event stream."
+            : run.view
+              ? run.scenario.blurb
+              : "Arrows show who calls whom. Press Play a run to watch the agents handle a simulated incident."}
         </p>
-        <RunBar run={run} />
+        <RunBar run={run} mode={mode} onMode={switchTo} />
         <FlowDiagram diagram={overview} run={run.view} />
       </div>
       <EventLog lines={run.log} />
