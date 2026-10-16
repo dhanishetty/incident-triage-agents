@@ -119,3 +119,18 @@ def metrics(state, config):
 ```
 
 Agents never talk to Azure or a model directly. They go through `deps`, so the same agent runs on the demo shop or Azure. The three evidence agents share one helper, `gather()`, in `agents.py`. The gate and the executor follow the same pattern.
+
+
+---
+
+### Why do we need a reasoner, and is it the same as a connector?
+No, they do different jobs.
+
+| | Connector | Reasoner |
+|---|---|---|
+| **Job** | Gets facts from outside | Makes decisions from those facts |
+| **Examples** | Read logs, read metrics, list deploys, apply a fix | Name the cause, say how sure, write the postmortem |
+| **Talks to** | Azure or the demo shop | Rules, or an LLM |
+| **Changes things?** | Only the Action connector, after approval | Never |
+
+We need a reasoner because raw logs and numbers do not say "bad deploy, roll back to v481". Something has to weigh the evidence and decide; the agents themselves just pass data along. It is kept separate so rules can be swapped for an LLM without touching the agents or connectors.
