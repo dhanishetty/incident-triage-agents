@@ -61,9 +61,18 @@ Helpers underneath: the **graph** (`graph.py`) sets the order, runs the evidence
 
 ---
 
-### What does "graph" mean here, in simple words?
-Not a chart. It is a **flowchart written as code**. The boxes are the agents and the arrows say who goes next.
+### What are the "graph" and LangGraph, in simple words?
 
-It also handles the tricky parts: Logs, Metrics and Change start together (parallel); Diagnosis waits until all three finish; if Diagnosis is unsure it goes back to Logs, up to 2 times (loop); and the run stops at the approval gate until a person decides (pause).
+| Term | Meaning |
+|---|---|
+| **Graph** | Not a chart. A **flowchart written as code**: boxes are the agents, arrows say who goes next. It lives in `graph.py` (about 50 lines). |
+| **LangGraph** | The library that builds and runs that flowchart. We use it instead of writing the control logic ourselves. |
 
-It lives in `graph.py` (about 50 lines) and the library that runs it is LangGraph. The architecture diagram on the website is a drawing of the same flowchart.
+What LangGraph handles for us:
+- **Shared state:** the "whiteboard" every agent reads from and writes to.
+- **Parallel:** Logs, Metrics and Change start together.
+- **Wait:** Diagnosis starts only when all three finish.
+- **Loop:** if Diagnosis is unsure, go back to Logs, up to 2 times.
+- **Pause and resume:** stop at the approval gate, save the state, and continue when a person decides.
+
+The architecture diagram on the website is a drawing of the same flowchart.
