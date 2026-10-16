@@ -39,3 +39,21 @@ No. As built it has almost no login, so it should not go on a public URL yet.
 | One identity, one subscription per deployment | Visitors cannot connect their own subscription. They would only see yours. |
 
 Before deploying publicly: add sign-in (for example Entra ID through Container Apps' built-in authentication), restrict who can approve to on-call engineers, and keep run creation and the demo shop off the public internet.
+
+
+---
+
+### How do all the components (the different agents) work together?
+They do not talk to each other directly. All agents share one **state** (like a whiteboard), and a **graph** decides who goes next. Each agent reads what earlier ones wrote and adds its own piece.
+
+| Agent | Reads from state | Writes to state |
+|---|---|---|
+| Triage supervisor | alert | plan |
+| Metrics, Logs, Change (in parallel) | alert | one finding each |
+| Diagnosis | all three findings | diagnosis (and may loop back to Logs) |
+| Remediation | diagnosis | fix proposal |
+| Approval gate | fix proposal | the person's decision |
+| Action executor | approved fix | result |
+| Postmortem | everything above | report and work item |
+
+Helpers underneath: the **graph** (`graph.py`) sets the order, runs the evidence agents in parallel, runs the loop and pauses at the gate; **connectors** are the only way agents reach logs, metrics, deploys and fixes; the **reasoner** does the judgment. Each agent also emits events as it works, and the website animates them.
