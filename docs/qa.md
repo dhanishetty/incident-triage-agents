@@ -99,7 +99,7 @@ Only the ideas behind it, not every library.
 ---
 
 ### What is the typical structure of an agent in this project?
-Every agent is one function (a LangGraph "node") with the same five steps.
+Think of each agent as a worker with the same short checklist. It is just one function (a LangGraph "node") that gets the shared state, does one job, and hands back its result. The five steps:
 
 | Step | What it does | Example (Metrics agent) |
 |---|---|---|
@@ -118,7 +118,16 @@ def metrics(state, config):
     return {"findings": {"metrics": ...}}              # 5. return
 ```
 
-Agents never talk to Azure or a model directly. They go through `deps`, so the same agent runs on the demo shop or Azure. The three evidence agents share one helper, `gather()`, in `agents.py`. The gate and the executor follow the same pattern.
+In plain words:
+- **Read:** the agent looks at the shared whiteboard (the state) and picks up what it needs, such as the alert.
+- **Announce:** it tells the website "I'm working on it", so the diagram lights up.
+- **Act:** it asks for the one thing it is responsible for. The Metrics agent asks the metrics connector for numbers. The Diagnosis agent asks the reasoner to weigh the evidence.
+- **Report:** it writes a short note about what it found, which appears in the event log.
+- **Return:** it puts back only its own result. Because each agent writes only its own piece, three agents running at the same time never overwrite each other.
+
+Agents never talk to Azure or a model directly. They go through `deps` (the connectors and the reasoner), so the same agent runs on the demo shop or on Azure without changes.
+
+The three evidence agents share one helper, `gather()`, in `agents.py`, because they differ only in which connector they call. The others follow the same pattern with small differences: the approval gate pauses and waits for a person, and the executor is the only one that changes anything.
 
 
 ---
