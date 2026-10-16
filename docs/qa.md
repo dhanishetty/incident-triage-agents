@@ -94,3 +94,28 @@ Only the ideas behind it, not every library.
 | | **Docker** and compose | Running it locally. |
 | **Skip unless asked** | React, Vite, Tailwind, nginx | It is the website only. |
 | | Azure SDK details, KQL | Azure-specific plumbing. |
+
+
+---
+
+### What is the typical structure of an agent in this project?
+Every agent is one function (a LangGraph "node") with the same five steps.
+
+| Step | What it does | Example (Metrics agent) |
+|---|---|---|
+| 1. Read | Takes the shared state and rebuilds the data it needs | the `Alert` |
+| 2. Announce | Marks itself "working" so the website animates it | `em.node("metrics", "working")` |
+| 3. Act | Calls one dependency: a connector or the reasoner | `deps.metrics.query(alert)` |
+| 4. Report | Posts what it found to the event log | `em.say(...)` |
+| 5. Return | Hands back only its own piece of state | `{"findings": {"metrics": ...}}` |
+
+```python
+def metrics(state, config):
+    em, alert = _em(config), Alert(**state["alert"])   # 1. read
+    em.node("metrics", "working")                      # 2. announce
+    evidence = deps.metrics.query(alert)               # 3. act
+    em.say("Metrics agent", evidence.summary)          # 4. report
+    return {"findings": {"metrics": ...}}              # 5. return
+```
+
+Agents never talk to Azure or a model directly. They go through `deps`, so the same agent runs on the demo shop or Azure. The three evidence agents share one helper, `gather()`, in `agents.py`. The gate and the executor follow the same pattern.
