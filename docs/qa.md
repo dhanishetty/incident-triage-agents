@@ -246,3 +246,21 @@ class EnvLogs:
 The Azure version has the same four parts plus: `AzureConfig` (workspace, subscription, resource group and app role, validated), fixed KQL templates (no query text comes from an alert), small helpers that turn Azure's result tables into the standard rows, and an injected `clock` so tests control "now".
 
 Wiring: `deps.py` builds the connectors for the chosen `TRIAGE_MODE` and passes them to the graph. Agents never create connectors themselves.
+
+
+---
+
+### Which LangGraph concepts should I learn or focus on?
+Seven, in this order. They are the LangGraph features this project actually uses.
+
+| # | Concept | Where it shows up here |
+|---|---|---|
+| 1 | **State**: the shared whiteboard (`State` in `graph.py`) | Every agent reads and writes it. |
+| 2 | **Nodes and edges**: agents are nodes, arrows are edges | `add_node`, `add_edge` in `build_graph`. |
+| 3 | **Parallel (fan-out, fan-in)**: start several nodes at once, wait for all | Logs, Metrics and Change feed Diagnosis. |
+| 4 | **Reducers**: how parallel results merge into one key | `findings` merges the three agents' output. |
+| 5 | **Conditional edges**: pick the next step by a rule | The Diagnosis loop and the approve or reject branch. |
+| 6 | **Interrupt and resume**: pause for a human, then continue | The approval gate: `interrupt()` and `Command(resume=...)`. |
+| 7 | **Checkpointer and thread id**: saves state so a run can resume | `InMemorySaver`, one thread per run. |
+
+Skip LangChain, tools and prebuilt agents, and streaming modes: this project does not use them. Start by reading `graph.py` (about 50 lines) with the first five, then learn #6 and #7 well, because they are the strongest part to show in a demo.
