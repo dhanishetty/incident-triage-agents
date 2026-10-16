@@ -264,3 +264,33 @@ Seven, in this order. They are the LangGraph features this project actually uses
 | 7 | **Checkpointer and thread id**: saves state so a run can resume | `InMemorySaver`, one thread per run. |
 
 Skip LangChain, tools and prebuilt agents, and streaming modes: this project does not use them. Start by reading `graph.py` (about 50 lines) with the first five, then learn #6 and #7 well, because they are the strongest part to show in a demo.
+
+
+---
+
+### What is an easy way to understand the LangGraph concepts, and are they used inside the agents too?
+Think of an office workflow.
+
+| Concept | Everyday picture |
+|---|---|
+| State | A whiteboard everyone writes on |
+| Node | A worker with one job |
+| Edge | An arrow saying who goes next |
+| Parallel | Three people work at the same time, then meet |
+| Reducer | Merging three people's notes into one page |
+| Conditional edge | A decision diamond in a flowchart |
+| Interrupt | "Stop until the manager signs" |
+| Checkpointer | A save game, so you can resume later |
+
+To learn: read `graph.py` (about 50 lines) with this table next to it, run the last cell of the walkthrough notebook and watch it pause at the gate, then build a tiny 3-node graph yourself.
+
+Mostly the concepts are **not** inside the agents; the agents are plain functions.
+
+| Concept | Where it lives |
+|---|---|
+| State | Inside agents: they read it and return their piece. |
+| Interrupt | Inside the gate agent only. |
+| Nodes, edges, parallel, reducers, conditional edges | `graph.py`, outside the agents. |
+| Checkpointer and thread id | `graph.py` and `runs.py`. |
+
+So an agent does not know it runs in parallel or in a loop. The graph decides that.
