@@ -204,3 +204,19 @@ Each interface has three versions, chosen by `TRIAGE_MODE`:
 **What a connector does:** it only fetches rows and cleans them into a standard shape. The summary text and the numbers are then built by one shared module (`connectors/analysis.py`), so the demo shop and Azure produce the same kind of evidence and the same reasoner works on both. Parity tests prove it.
 
 **Safety:** the read connectors need only read-only roles. Values that go into a KQL query come from configuration, never from an alert, and are validated. The Azure Action connector is not built yet, so in Azure mode an approved fix is handed to a person.
+
+
+---
+
+### Are the connectors in the code the same as the "Connector layer" in the diagram?
+Yes. The five boxes in the diagram's Connector layer are the five interfaces in `connectors/base.py`.
+
+| Diagram box | Code interface |
+|---|---|
+| Logs connector | `LogSource` |
+| Metrics connector | `MetricSource` |
+| Change connector | `ChangeSource` |
+| Action connector | `ActionRunner` |
+| Work item connector | `WorkItemSink` |
+
+Two differences today: the diagram shows the Change connector reading Azure DevOps (Pipelines, Repos) as well as the Activity Log, but the code reads only the Activity Log. The diagram shows the Work item connector writing to Azure DevOps Boards, but the code uses an in-memory stand-in (`DemoWorkItems`). Both Azure DevOps parts are planned.
