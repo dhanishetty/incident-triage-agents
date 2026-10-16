@@ -4,7 +4,7 @@ A team of eight AI agents that triages an Azure incident. An Azure Monitor alert
 
 ![Architecture](docs/architecture.svg)
 
-One incident from alert to closed run: [docs/sequence.md](docs/sequence.md). To step through it function by function: [notebooks/incident_walkthrough.ipynb](notebooks/incident_walkthrough.ipynb).
+Questions and answers about the design: [docs/qa.md](docs/qa.md). One incident from alert to closed run: [docs/sequence.md](docs/sequence.md). To step through it function by function: [notebooks/incident_walkthrough.ipynb](notebooks/incident_walkthrough.ipynb).
 
 ## Status
 
