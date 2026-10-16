@@ -178,3 +178,29 @@ It is one interface with four jobs: `plan`, `diagnose`, `propose_fix` and `postm
 - A version or pool size it names must appear in the change history, or it is dropped.
 - Evidence goes in as quoted data, with an instruction not to obey it.
 - If the call fails or is refused, the rules answer instead.
+
+
+---
+
+### How do the connectors work?
+A connector is the only way an agent reaches the outside world. Agents depend on five small interfaces (in `connectors/base.py`), never on Azure itself.
+
+| Interface | Job | Changes things? |
+|---|---|---|
+| `LogSource` | Find error patterns | No |
+| `MetricSource` | Find spikes and saturation | No |
+| `ChangeSource` | List deploys and config changes | No |
+| `ActionRunner` | Apply an approved fix | **Yes**, and only after approval |
+| `WorkItemSink` | File the postmortem | Writes a work item |
+
+Each interface has three versions, chosen by `TRIAGE_MODE`:
+
+| Mode | Where the data comes from |
+|---|---|
+| `demo` | Scripted data for the three demo incidents |
+| `env` | The demo shop's own logs, metrics and change history |
+| `azure` | Log Analytics (KQL queries) and the Azure Activity Log |
+
+**What a connector does:** it only fetches rows and cleans them into a standard shape. The summary text and the numbers are then built by one shared module (`connectors/analysis.py`), so the demo shop and Azure produce the same kind of evidence and the same reasoner works on both. Parity tests prove it.
+
+**Safety:** the read connectors need only read-only roles. Values that go into a KQL query come from configuration, never from an alert, and are validated. The Azure Action connector is not built yet, so in Azure mode an approved fix is handed to a person.
