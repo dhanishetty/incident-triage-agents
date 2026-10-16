@@ -10,6 +10,8 @@ Yes, both. Everything is already in standard Docker images.
 | **App Service** | Works for a demo. Frontend and backend as two web apps. |
 | **AKS** | Works, but overkill for three small containers. |
 
+---
+
 ### Once the application is deployed, how do I connect it to an Azure subscription and start using it?
 
 | Step | What to do |
