@@ -220,3 +220,29 @@ Yes. The five boxes in the diagram's Connector layer are the five interfaces in 
 | Work item connector | `WorkItemSink` |
 
 Two differences today: the diagram shows the Change connector reading Azure DevOps (Pipelines, Repos) as well as the Activity Log, but the code reads only the Activity Log. The diagram shows the Work item connector writing to Azure DevOps Boards, but the code uses an in-memory stand-in (`DemoWorkItems`). Both Azure DevOps parts are planned.
+
+
+---
+
+### How are the connectors constructed?
+A connector is a small class built from the same four parts. The demo shop's Logs connector is the simplest example:
+
+```python
+class EnvLogs:
+    def __init__(self, shop):                                   # 1. receives its client
+        self.shop = shop
+    def query(self, alert, *, deeper=False):                    # 2. one method from the interface
+        errors = self.shop.get("/telemetry/logs", minutes=30)   # 3. fetch raw rows
+        return logs_evidence(errors, self.shop.clock(), deeper) # 4. hand to shared analysis
+```
+
+| Part | What it is | Why |
+|---|---|---|
+| **1. Client passed in** | The connector gets its client (the shop's HTTP client, or Azure's `LogsQueryClient`) from outside. | Tests can pass a fake client, so no network is needed. |
+| **2. Interface method** | `query`, `recent` or `apply`, matching `connectors/base.py`. | Agents call every version the same way. |
+| **3. Fetch and clean** | Get rows from the source and turn them into one standard shape. | Azure and the shop look different underneath but feed the same shape. |
+| **4. Shared analysis** | `connectors/analysis.py` builds the summary and the numbers. | Same evidence from any source, so one reasoner works on both. |
+
+The Azure version has the same four parts plus: `AzureConfig` (workspace, subscription, resource group and app role, validated), fixed KQL templates (no query text comes from an alert), small helpers that turn Azure's result tables into the standard rows, and an injected `clock` so tests control "now".
+
+Wiring: `deps.py` builds the connectors for the chosen `TRIAGE_MODE` and passes them to the graph. Agents never create connectors themselves.
