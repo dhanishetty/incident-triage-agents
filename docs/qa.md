@@ -60,6 +60,14 @@ For each code cell: where it fits in the 9-step flow, the function, links to the
 and its outputs. The links point at `main` by line number, so they can drift if a file changes; regenerating the notebook
 fixes them. The repo is private, so the links open only when signed in as the owner.
 
+### Can we deploy this on AKS or Azure App Service?
+Yes, both, because everything is already in standard Docker images. Azure Container Apps is the best fit: simplest,
+scales to zero, built-in HTTPS and managed identity. App Service works for a demo (frontend and backend as two web apps).
+AKS works but is overkill for three small containers. Two changes on any of them: run one backend instance only (run
+state and approvals are in memory, so a database such as Postgres is needed to scale out), and rewire the nginx proxy
+and allow long connections for live events (SSE). The demo shop is local only; in the cloud the agents read real Azure
+telemetry.
+
 ## Likely questions at a demo
 
 ### Is it really using an LLM?
