@@ -158,3 +158,23 @@ In this project the agents do not decide. They are the workers, and the reasoner
 The Diagnosis agent just calls `reasoner.diagnose(...)` and acts on the answer.
 
 Why split them: the agent code stays the same whether the judgment comes from rules or an LLM, and the judgment can be tested and scored on its own (`evals/score.py`). Decision logic could live inside each agent, but then swapping the model would mean rewriting the agents.
+
+
+---
+
+### How does the reasoner work?
+It is one interface with four jobs: `plan`, `diagnose`, `propose_fix` and `postmortem`. The agents call these and don't care what is inside. There are two real versions you can pick with `TRIAGE_REASONER`:
+
+| Version | How it decides |
+|---|---|
+| **Rules** (default) | Looks for a known pattern in the evidence and adds confidence for every signal that agrees. |
+| **Azure OpenAI** | A model reads the evidence and answers in a fixed format. Its answer is checked before anyone acts on it. |
+
+**Rules example (bad deploy):** errors in the logs add 0.30, a high 5xx rate adds 0.20, and a recent deploy adds 0.20. That is 0.70, below the 0.80 threshold, so it asks for a second Logs pass. A stack trace adds 0.15, giving 0.85, and it goes ahead.
+
+**Azure OpenAI guardrails:**
+- The model only diagnoses and writes the postmortem. It never picks an action.
+- The fix comes from a fixed list of three (rollback, restart, set pool size).
+- A version or pool size it names must appear in the change history, or it is dropped.
+- Evidence goes in as quoted data, with an instruction not to obey it.
+- If the call fails or is refused, the rules answer instead.
