@@ -57,3 +57,13 @@ They do not talk to each other directly. All agents share one **state** (like a 
 | Postmortem | everything above | report and work item |
 
 Helpers underneath: the **graph** (`graph.py`) sets the order, runs the evidence agents in parallel, runs the loop and pauses at the gate; **connectors** are the only way agents reach logs, metrics, deploys and fixes; the **reasoner** does the judgment. Each agent also emits events as it works, and the website animates them.
+
+
+---
+
+### What does "graph" mean here, in simple words?
+Not a chart. It is a **flowchart written as code**. The boxes are the agents and the arrows say who goes next.
+
+It also handles the tricky parts: Logs, Metrics and Change start together (parallel); Diagnosis waits until all three finish; if Diagnosis is unsure it goes back to Logs, up to 2 times (loop); and the run stops at the approval gate until a person decides (pause).
+
+It lives in `graph.py` (about 50 lines) and the library that runs it is LangGraph. The architecture diagram on the website is a drawing of the same flowchart.
