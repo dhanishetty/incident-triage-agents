@@ -294,3 +294,17 @@ Mostly the concepts are **not** inside the agents; the agents are plain function
 | Checkpointer and thread id | `graph.py` and `runs.py`. |
 
 So an agent does not know it runs in parallel or in a loop. The graph decides that.
+
+
+---
+
+### Are the connectors part of LangGraph too?
+No. Connectors are plain Python classes. LangGraph does not know they exist.
+
+| Part | Who owns it |
+|---|---|
+| Agents (nodes), state, edges, parallel, loop, pause | **LangGraph** |
+| Connectors (logs, metrics, changes, actions, work items) | Our own code, in `connectors/` |
+| Reasoner | Our own code, in `llm/` |
+
+LangGraph only runs the agent functions in the right order. Inside an agent, the code calls a connector through `deps`, the same way it would call any ordinary function. That is why connectors can be swapped (demo shop or Azure) and tested without LangGraph at all.
