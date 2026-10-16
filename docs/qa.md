@@ -76,3 +76,21 @@ What LangGraph handles for us:
 - **Pause and resume:** stop at the approval gate, save the state, and continue when a person decides.
 
 The architecture diagram on the website is a drawing of the same flowchart.
+
+
+---
+
+### Do I have to know the architecture or libraries used in this project?
+Only the ideas behind it, not every library.
+
+| Level | What | Why |
+|---|---|---|
+| **Must know** | Multi-agent flow: shared state, parallel, loop | It is the heart of the project. |
+| | Human approval before any change | Your main safety story. |
+| | Connectors: agents never touch Azure directly | Lets the same agents run on the demo shop or Azure. |
+| | **LangGraph** basics: nodes, edges, state, pause and resume | It runs the flow. |
+| **Good to know** | Reasoner: rules or LLM, behind one interface, with guardrails | Questions about "is it really AI?" |
+| | **FastAPI** and **Pydantic** | The API and the data shapes. |
+| | **Docker** and compose | Running it locally. |
+| **Skip unless asked** | React, Vite, Tailwind, nginx | It is the website only. |
+| | Azure SDK details, KQL | Azure-specific plumbing. |
