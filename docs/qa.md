@@ -134,3 +134,18 @@ No, they do different jobs.
 | **Changes things?** | Only the Action connector, after approval | Never |
 
 We need a reasoner because raw logs and numbers do not say "bad deploy, roll back to v481". Something has to weigh the evidence and decide; the agents themselves just pass data along. It is kept separate so rules can be swapped for an LLM without touching the agents or connectors.
+
+
+---
+
+### Why do we need a reasoner if the agents already decide?
+In this project the agents do not decide. They are the workers, and the reasoner is the brain they call.
+
+| | Agent | Reasoner |
+|---|---|---|
+| **Role** | Does a step: fetch, call, report | Makes the judgment |
+| **Example** | Diagnosis agent: runs the step, updates state, posts events, loops if told to | `diagnose()`: weighs the evidence, returns a cause and confidence |
+
+The Diagnosis agent just calls `reasoner.diagnose(...)` and acts on the answer.
+
+Why split them: the agent code stays the same whether the judgment comes from rules or an LLM, and the judgment can be tested and scored on its own (`evals/score.py`). Decision logic could live inside each agent, but then swapping the model would mean rewriting the agents.
