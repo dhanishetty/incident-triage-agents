@@ -26,3 +26,16 @@ Yes, both. Everything is already in standard Docker images.
 Today it watches one subscription and resource group per deployment, and approved fixes are handed to a person (the Azure Action connector is not built yet).
 
 
+---
+
+### If deployed this way, can anyone from anywhere use the application?
+No. As built it has almost no login, so it should not go on a public URL yet.
+
+| Today | Risk if public |
+|---|---|
+| Website and `/runs` API are open | Anyone with the link can see incidents and their details. |
+| `POST /runs` and the approval endpoint are open | Anyone can start a run or approve a fix. |
+| Only `/alerts` needs a secret token | The token protects the webhook, not the rest. |
+| One identity, one subscription per deployment | Visitors cannot connect their own subscription. They would only see yours. |
+
+Before deploying publicly: add sign-in (for example Entra ID through Container Apps' built-in authentication), restrict who can approve to on-call engineers, and keep run creation and the demo shop off the public internet.
