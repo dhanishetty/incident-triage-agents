@@ -308,3 +308,18 @@ No. Connectors are plain Python classes. LangGraph does not know they exist.
 | Reasoner | Our own code, in `llm/` |
 
 LangGraph only runs the agent functions in the right order. Inside an agent, the code calls a connector through `deps`, the same way it would call any ordinary function. That is why connectors can be swapped (demo shop or Azure) and tested without LangGraph at all.
+
+
+---
+
+### What do the inputs and outputs of `merge_findings` look like?
+It takes two dicts and returns one dict with the keys of both. If a key is in both, the second one wins.
+
+| `a` (already in state) | `b` (new write) | Output |
+|---|---|---|
+| `{"low": False}` | `{"mid": True}` | `{"low": False, "mid": True}` |
+| `{"low": False, "mid": True}` | `{"high": False}` | `{"low": False, "mid": True, "high": False}` |
+| `{}` | `{"parity": "even"}` | `{"parity": "even"}` |
+| `{"mid": True}` | `{"mid": False}` | `{"mid": False}` (same key: `b` wins) |
+
+LangGraph calls it for you whenever two nodes write `findings`. `a` is the current value, `b` is the new write. With three parallel nodes it is called repeatedly, once per write, so the final dict holds all three answers.
